@@ -8,6 +8,7 @@ import Contact from "../components/sections/Contact";
 import WhyChooseUs from "../components/sections/WhyChooseUs";
 import CaseStudy from "../components/sections/CaseStudy";
 import Results from "../components/sections/Results";
+import { Helmet } from "react-helmet-async";
 
 /* ================= Navigator Config ================= */
 const sections = [
@@ -57,76 +58,105 @@ const Home = () => {
   };
 
   return (
-    <div className="relative">
-      {/* ===== Navigator ===== */}
-      <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden md:flex flex-col gap-4">
-        {sections.map((section) => {
-          const isActive = activeSection === section.id;
-          return (
-            <button
-              key={section.id}
-              onClick={() => scrollTo(section.id)}
-              className="group flex items-center gap-3"
-            >
-              {/* Dot */}
-              <span
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${isActive
+    <>
+      <Helmet>
+        <title>Digital Marketing Agency in Hyderabad | PixelMind Solutions</title>
+
+        <meta
+          name="description"
+          content="PixelMind Solutions is a results-driven digital marketing agency in Hyderabad offering SEO, PPC, social media marketing, and lead generation services."
+        />
+
+        <meta
+          name="keywords"
+          content="digital marketing agency Hyderabad, SEO services, PPC ads, social media marketing, lead generation company"
+        />
+
+        <meta property="og:title" content="Digital Marketing Agency | PixelMind Solutions" />
+        <meta property="og:description" content="Grow your business with expert SEO, PPC, and social media marketing services." />
+        <meta property="og:url" content="https://www.pixelmindsolutions.in/" />
+        <meta property="og:image" content="https://www.pixelmindsolutions.in/preview.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Digital Marketing Agency | PixelMind Solutions" />
+        <meta name="twitter:description" content="Top digital marketing services to grow your business online." />
+
+        <link rel="canonical" href="https://www.pixelmindsolutions.in/" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
+
+      <div className="relative">
+        {/* ===== Navigator ===== */}
+        <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden md:flex flex-col gap-4">
+          {sections.map((section) => {
+            const isActive = activeSection === section.id;
+            return (
+              <button
+                key={section.id}
+                onClick={() => scrollTo(section.id)}
+                className="group flex items-center gap-3"
+              >
+                {/* Dot */}
+                <span
+                  className={`w-3 h-3 rounded-full transition-all duration-300 ${isActive
                     ? "bg-teal-600 scale-125 shadow-lg shadow-teal-500/50"
                     : "bg-gray-400 dark:bg-gray-600"
-                  }`}
-              />
+                    }`}
+                />
 
-              {/* Label */}
-              <span
-                className={`text-sm font-medium transition-all duration-300 ${isActive
+                {/* Label */}
+                <span
+                  className={`text-sm font-medium transition-all duration-300 ${isActive
                     ? "opacity-100 translate-x-0 text-teal-600"
                     : "opacity-0 -translate-x-2 text-gray-500 group-hover:opacity-80"
-                  }`}
-              >
-                {section.label}
-              </span>
-            </button>
-          );
-        })}
+                    }`}
+                >
+                  {section.label}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* ===== Sections ===== */}
+        <section id="hero">
+          <Hero />
+        </section>
+
+        <section id="services">
+          <Services />
+        </section>
+
+        <section id="process">
+          <Process />
+        </section>
+
+        <section id="results" className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+          <Results />
+        </section>
+
+        <section id="whychooseus">
+          <WhyChooseUs />
+        </section>
+
+        <section id="casestudy">
+          <CaseStudy />
+        </section>
+
+        <section id="portfolio">
+          <Portfolio />
+        </section>
+
+        <section id="testimonials">
+          <Testimonials />
+        </section>
+
+        <section id="contact">
+          <Contact />
+        </section>
       </div>
-
-      {/* ===== Sections ===== */}
-      <section id="hero">
-        <Hero />
-      </section>
-
-      <section id="services">
-        <Services />
-      </section>
-
-      <section id="process">
-        <Process />
-      </section>
-
-      <section id="results" className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
-        <Results />
-      </section>
-
-      <section id="whychooseus">
-        <WhyChooseUs />
-      </section>
-
-      <section id="casestudy">
-        <CaseStudy />
-      </section> 
-
-      <section id="portfolio">
-        <Portfolio />
-      </section>
-
-      <section id="testimonials">
-        <Testimonials />
-      </section>
-
-      <section id="contact">
-        <Contact />
-      </section>
-    </div>
+    </>
   );
 };
 

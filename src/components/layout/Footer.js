@@ -203,9 +203,6 @@ const Footer = () => {
                 { text: 'Services', href: '/services' },
                 { text: 'Case Studies', href: '/portfolio' },
                 { text: 'About Us', href: '/about' },
-                { text: 'Team', href: '/team' },
-                { text: 'Careers', href: '/careers' },
-                { text: 'Blog', href: '/blog' },
                 { text: 'Contact', href: '/contact' }
               ].map((link, index) => (
                 <motion.li
