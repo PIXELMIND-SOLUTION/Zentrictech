@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             <span className="text-gray-900 dark:text-white">
               Why We Are the{" "}
             </span>
-            <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
+            <span className="bg-[#004787] bg-clip-text text-transparent">
               Right Partner
             </span>
             <span className="text-gray-900 dark:text-white">
@@ -56,7 +56,7 @@ const WhyChooseUs = () => {
                 className="flex items-start gap-4 group"
               >
                 {/* Icon */}
-                <div className="min-w-[40px] h-10 w-10 flex items-center justify-center rounded-full bg-gradient-to-r from-[#06cabc] to-[#06a6c4] text-white shadow-md group-hover:scale-110 transition">
+                <div className="min-w-[40px] h-10 w-10 flex items-center justify-center rounded-full bg-[#004787] text-white shadow-md group-hover:scale-110 transition">
                   <CheckCircle size={20} />
                 </div>
 
@@ -77,7 +77,7 @@ const WhyChooseUs = () => {
             className="relative"
           >
             {/* Glow */}
-            <div className="absolute -inset-2 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] opacity-20 blur-2xl rounded-3xl"></div>
+            <div className="absolute -inset-2 bg-[#004787] opacity-20 blur-2xl rounded-3xl"></div>
 
             <div className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl border border-gray-200 dark:border-gray-700 rounded-3xl p-8 md:p-10 shadow-xl">
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -93,7 +93,7 @@ const WhyChooseUs = () => {
               </p>
 
               {/* CTA Accent */}
-              <div className="mt-6 h-1 w-16 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] rounded-full"></div>
+              <div className="mt-6 h-1 w-16 bg-[#004787] rounded-full"></div>
             </div>
           </motion.div>
         </div>

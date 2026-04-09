@@ -73,7 +73,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "info@pixelmindsolutions.com",
+      value: "info@zentricstech.com",
       description: "We respond within 24 hours",
     },
     {
@@ -127,7 +127,7 @@ const Contact = () => {
             <span className="text-gray-900 dark:text-white">
               Get Free{" "}
             </span>
-            <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
+            <span className="bg-[#004787] bg-clip-text text-transparent">
               Digital Marketing Audit
             </span>
           </h2>
@@ -231,7 +231,7 @@ const Contact = () => {
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     disabled={isSubmitting}
-                    className="w-full py-4 rounded-xl bg-gradient-to-r from-[#06cabc] to-[#06a6c4] text-white font-semibold flex justify-center items-center gap-2"
+                    className="w-full py-4 rounded-xl bg-[#004787] text-white font-semibold flex justify-center items-center gap-2"
                   >
                     {isSubmitting ? "Sending..." : (
                       <>
@@ -266,7 +266,7 @@ const Contact = () => {
                     className="w-full flex justify-between items-center"
                   >
                     <div className="flex items-center gap-3">
-                      <item.icon className="text-[#06cabc]" />
+                      <item.icon className="text-[#004787]" />
                       <span className="font-semibold">{item.title}</span>
                     </div>
                     <ChevronDown
@@ -302,7 +302,7 @@ const Contact = () => {
               className="glass-effect rounded-3xl p-8"
             >
               <h3 className="text-xl font-bold flex items-center gap-2 mb-6">
-                <MessageSquare className="text-[#06cabc]" /> FAQs
+                <MessageSquare className="text-[#004787]" /> FAQs
               </h3>
 
               {faqs.map((faq, i) => (
@@ -351,7 +351,7 @@ const Contact = () => {
           transition: all 0.3s ease;
         }
         .input:focus {
-          border-color: #06cabc;
+          border-color: #004787;
           box-shadow: 0 0 0 3px rgba(6, 202, 188, 0.1);
         }
         .dark .input {
@@ -360,7 +360,7 @@ const Contact = () => {
           background: rgba(31, 41, 55, 0.5);
         }
         .dark .input:focus {
-          border-color: #06cabc;
+          border-color: #004787;
           box-shadow: 0 0 0 3px rgba(6, 202, 188, 0.2);
         }
         .input::placeholder {

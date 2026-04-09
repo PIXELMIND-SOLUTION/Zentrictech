@@ -54,7 +54,7 @@ const GetStartedPage = () => {
         'PPC Management',
         'Monthly Strategy Calls'
       ],
-      color: 'from-teal-600 to-cyan-600',
+      color: 'from-[#004787] to-cyan-600',
       icon: Zap,
       popular: true
     },
@@ -105,7 +105,7 @@ const GetStartedPage = () => {
       result: '150% lead increase',
       duration: '3 months',
       icon: TrendingUp,
-      color: 'from-teal-600 to-cyan-600'
+      color: 'from-[#004787] to-cyan-600'
     }
   ];
 
@@ -145,7 +145,7 @@ const GetStartedPage = () => {
       title: 'Custom Plan',
       description: 'Tailored strategy proposal based on your needs',
       icon: Target,
-      color: 'from-teal-600 to-cyan-600'
+      color: 'from-[#004787] to-cyan-600'
     },
     {
       number: '03',
@@ -179,7 +179,7 @@ const GetStartedPage = () => {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-teal-50/20 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 pt-24">
       {/* Animated Background Elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-96 h-96 bg-teal-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-[#004787] rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
         <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-cyan-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-teal-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
       </div>
@@ -200,8 +200,8 @@ const GetStartedPage = () => {
               transition={{ delay: 0.2 }}
               className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-teal-500/10 to-cyan-500/10 border border-teal-500/20 dark:border-teal-400/20 mb-8"
             >
-              <Sparkles className="w-5 h-5 mr-2 text-teal-600 dark:text-teal-400" />
-              <span className="text-lg font-semibold bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              <Sparkles className="w-5 h-5 mr-2 text-[#004787] dark:text-teal-400" />
+              <span className="text-lg font-semibold bg-gradient-to-r from-[#004787] to-cyan-600 bg-clip-text text-transparent">
                 Join 500+ Successful Brands
               </span>
             </motion.div>
@@ -209,7 +209,7 @@ const GetStartedPage = () => {
             {/* Main Heading */}
             <h1 className="text-6xl md:text-8xl font-bold mb-8 tracking-tight">
               <span className="block text-gray-900 dark:text-white mb-2">Launch Your</span>
-              <span className="block bg-gradient-to-r from-teal-600 via-cyan-600 to-teal-500 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-[#004787] via-cyan-600 to-teal-500 bg-clip-text text-transparent">
                 Digital Revolution
               </span>
             </h1>
@@ -224,7 +224,7 @@ const GetStartedPage = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="group px-10 py-5 bg-gradient-to-r from-teal-600 to-cyan-600 text-white font-bold rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 flex items-center space-x-3 text-lg"
+                className="group px-10 py-5 bg-gradient-to-r from-[#004787] to-cyan-600 text-white font-bold rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 flex items-center space-x-3 text-lg"
               >
                 <Rocket className="h-6 w-6" />
                 <span>Start Free Trial</span>
@@ -276,7 +276,7 @@ const GetStartedPage = () => {
           <motion.div
             animate={{ y: [0, 20, 0] }}
             transition={{ duration: 4, repeat: Infinity }}
-            className="w-16 h-16 rounded-2xl bg-gradient-to-br from-teal-600 to-cyan-600 shadow-2xl flex items-center justify-center"
+            className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#004787] to-cyan-600 shadow-2xl flex items-center justify-center"
           >
             <TrendingUp className="h-8 w-8 text-white" />
           </motion.div>
@@ -289,7 +289,7 @@ const GetStartedPage = () => {
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="block text-gray-900 dark:text-white">Our 4-Step</span>
-              <span className="block bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-[#004787] to-cyan-600 bg-clip-text text-transparent">
                 Success Process
               </span>
             </h2>
@@ -325,7 +325,7 @@ const GetStartedPage = () => {
                     {step.description}
                   </p>
                   <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
-                    <div className="flex items-center text-teal-600 dark:text-teal-400 font-semibold">
+                    <div className="flex items-center text-[#004787] dark:text-teal-400 font-semibold">
                       <span>Learn more</span>
                       <ChevronRight className="h-4 w-4 ml-2" />
                     </div>
@@ -343,7 +343,7 @@ const GetStartedPage = () => {
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="block text-gray-900 dark:text-white">Choose Your</span>
-              <span className="block bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-[#004787] to-cyan-600 bg-clip-text text-transparent">
                 Growth Plan
               </span>
             </h2>
@@ -399,7 +399,7 @@ const GetStartedPage = () => {
                 {/* Popular Badge */}
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <div className="px-6 py-2 bg-gradient-to-r from-teal-600 to-cyan-600 text-white font-bold rounded-full shadow-lg">
+                    <div className="px-6 py-2 bg-gradient-to-r from-[#004787] to-cyan-600 text-white font-bold rounded-full shadow-lg">
                       MOST POPULAR
                     </div>
                   </div>
@@ -460,7 +460,7 @@ const GetStartedPage = () => {
                     {/* CTA Button */}
                     <button className={`w-full py-4 rounded-xl font-bold transition-all duration-300 ${
                       plan.popular
-                        ? 'bg-gradient-to-r from-teal-600 to-cyan-600 text-white hover:shadow-2xl'
+                        ? 'bg-gradient-to-r from-[#004787] to-cyan-600 text-white hover:shadow-2xl'
                         : 'border-2 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white hover:border-teal-500 dark:hover:border-teal-400'
                     }`}>
                       {plan.popular ? 'Get Started Today' : 'Start Free Trial'}
@@ -469,7 +469,7 @@ const GetStartedPage = () => {
                     {/* Additional Info */}
                     {plan.popular && (
                       <div className="mt-6 p-4 bg-teal-50 dark:bg-teal-900/20 rounded-xl border border-teal-100 dark:border-teal-800">
-                        <div className="flex items-center text-sm text-teal-700 dark:text-teal-300">
+                        <div className="flex items-center text-sm text-teal-700 dark:text-[#004787]">
                           <Clock className="h-4 w-4 mr-2" />
                           <span>Average ROI: 300% in first 6 months</span>
                         </div>
@@ -493,7 +493,7 @@ const GetStartedPage = () => {
                 className="text-center"
               >
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-r from-teal-500/10 to-cyan-500/10 border border-teal-500/20 dark:border-teal-400/20 flex items-center justify-center mx-auto mb-6">
-                  <feature.icon className="h-8 w-8 text-teal-600 dark:text-teal-400" />
+                  <feature.icon className="h-8 w-8 text-[#004787] dark:text-teal-400" />
                 </div>
                 <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">
                   {feature.title}
@@ -513,7 +513,7 @@ const GetStartedPage = () => {
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="block text-gray-900 dark:text-white">Proven</span>
-              <span className="block bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-[#004787] to-cyan-600 bg-clip-text text-transparent">
                 Success Stories
               </span>
             </h2>
@@ -553,7 +553,7 @@ const GetStartedPage = () => {
                       </div>
                     </div>
                     <div className="pt-6 border-t border-gray-200 dark:border-gray-700">
-                      <button className="flex items-center text-teal-600 dark:text-teal-400 font-semibold group-hover:underline">
+                      <button className="flex items-center text-[#004787] dark:text-teal-400 font-semibold group-hover:underline">
                         <span>Read full case study</span>
                         <ArrowRight className="h-4 w-4 ml-2" />
                       </button>
@@ -589,7 +589,7 @@ const GetStartedPage = () => {
                     <div className="text-center mb-12">
                       <h3 className="text-4xl md:text-5xl font-bold mb-6">
                         <span className="block text-gray-900 dark:text-white">Ready to</span>
-                        <span className="block bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">
+                        <span className="block bg-gradient-to-r from-[#004787] to-cyan-600 bg-clip-text text-transparent">
                           Transform Your Business?
                         </span>
                       </h3>
@@ -689,7 +689,7 @@ const GetStartedPage = () => {
                       <div className="pt-8 border-t border-gray-200 dark:border-gray-700">
                         <button
                           type="submit"
-                          className="w-full py-5 bg-gradient-to-r from-teal-600 to-cyan-600 text-white font-bold rounded-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center space-x-3 text-lg group"
+                          className="w-full py-5 bg-gradient-to-r from-[#004787] to-cyan-600 text-white font-bold rounded-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center space-x-3 text-lg group"
                         >
                           <Rocket className="h-6 w-6 transform group-hover:rotate-12 transition-transform" />
                           <span>Get My Personalized Strategy</span>
@@ -724,7 +724,7 @@ const GetStartedPage = () => {
                       >
                         Edit Information
                       </button>
-                      <button className="px-8 py-4 bg-gradient-to-r from-teal-600 to-cyan-600 text-white font-semibold rounded-xl hover:shadow-xl transition-all duration-300">
+                      <button className="px-8 py-4 bg-gradient-to-r from-[#004787] to-cyan-600 text-white font-semibold rounded-xl hover:shadow-xl transition-all duration-300">
                         Schedule Call Now
                       </button>
                     </div>
@@ -745,7 +745,7 @@ const GetStartedPage = () => {
             viewport={{ once: true }}
             className="relative rounded-3xl overflow-hidden"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-teal-600 to-cyan-600"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#004787] to-cyan-600"></div>
             <div className="relative p-12 text-center">
               <h3 className="text-4xl md:text-5xl font-bold mb-6 text-white">
                 Start Your Growth Journey Today
@@ -754,7 +754,7 @@ const GetStartedPage = () => {
                 Don't wait for tomorrow. Take the first step towards digital transformation now.
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <button className="px-10 py-5 bg-white text-teal-600 font-bold rounded-2xl hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1 flex items-center space-x-3">
+                <button className="px-10 py-5 bg-white text-[#004787] font-bold rounded-2xl hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1 flex items-center space-x-3">
                   <Rocket className="h-6 w-6" />
                   <span>Start 14-Day Free Trial</span>
                 </button>

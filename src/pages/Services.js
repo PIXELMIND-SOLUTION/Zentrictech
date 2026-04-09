@@ -32,7 +32,7 @@ const ServicesPage = () => {
         'SEO Reporting',
       ],
       results: ['+300% Organic Traffic', '+150% Keyword Rankings', '-40% Bounce Rate'],
-      color: 'from-[#06cabc] to-[#06a6c4]',
+      color: 'from-[#004787] to-[#004787]',
       duration: '3–6 Months',
       price: 'Starting at ₹15,000/month',
       popular: true,
@@ -53,7 +53,7 @@ const ServicesPage = () => {
         'Monthly Reports',
       ],
       results: ['+200% Leads', '3× Revenue Growth', '+85% Brand Reach'],
-      color: 'from-[#06cabc] to-[#0699c4]',
+      color: 'from-[#004787] to-[#004787]',
       duration: 'Ongoing',
       price: 'Starting at ₹20,000/month',
       popular: true,
@@ -74,7 +74,7 @@ const ServicesPage = () => {
         'On-Site SEO',
       ],
       results: ['+70% Conversion Rate', '-60% Load Time', '100 PageSpeed Score'],
-      color: 'from-[#06cabc] to-[#06b4c4]',
+      color: 'from-[#004787] to-[#004787]',
       duration: '4–8 Weeks',
       price: 'Starting at ₹25,000',
       popular: false,
@@ -95,7 +95,7 @@ const ServicesPage = () => {
         'Post-Launch Support',
       ],
       results: ['50K+ Downloads', '4.8★ Avg Rating', '-30% Support Tickets'],
-      color: 'from-[#06cabc] to-[#06dac4]',
+      color: 'from-[#004787] to-[#004787]',
       duration: '8–16 Weeks',
       price: 'Starting at ₹60,000',
       popular: false,
@@ -116,7 +116,7 @@ const ServicesPage = () => {
         'ROI Reporting',
       ],
       results: ['+240% Conversions', '-55% Cost per Lead', '450% ROI'],
-      color: 'from-[#06cabc] to-[#06f4c4]',
+      color: 'from-[#004787] to-[#06f4c4]',
       duration: '1–3 Months',
       price: 'Starting at ₹18,000/month + ad spend',
       popular: true,
@@ -187,12 +187,12 @@ const ServicesPage = () => {
           content="SEO services, PPC advertising, Google Ads, social media marketing, digital marketing services"
         />
 
-        <meta property="og:title" content="Digital Marketing Services | PixelMind Solutions" />
+        <meta property="og:title" content="Digital Marketing Services | Zentricstech Solutions" />
         <meta property="og:description" content="Comprehensive SEO, PPC, and social media marketing services." />
-        <meta property="og:url" content="https://www.pixelmindsolutions.in/services" />
-        <meta property="og:image" content="https://www.pixelmindsolutions.in/services.jpg" />
+        <meta property="og:url" content="https://www.zentricstech.com/services" />
+        <meta property="og:image" content="https://www.zentricstech.com/services.jpg" />
 
-        <link rel="canonical" href="https://www.pixelmindsolutions.in/services" />
+        <link rel="canonical" href="https://www.zentricstech.com/services" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -202,11 +202,11 @@ const ServicesPage = () => {
         {/* ─── HERO ──────────────────────────────────────── */}
         <section className="relative py-32 overflow-hidden">
           <div className="absolute inset-0">
-            <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#06cabc]/10 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#06a6c4]/10 rounded-full blur-3xl" />
+            <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#004787]/10 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#004787]/10 rounded-full blur-3xl" />
             <div className="absolute inset-0 opacity-10" style={{
-              backgroundImage: `linear-gradient(to right, #06cabc 1px, transparent 1px),
-                               linear-gradient(to bottom, #06cabc 1px, transparent 1px)`,
+              backgroundImage: `linear-gradient(to right, #004787 1px, transparent 1px),
+                               linear-gradient(to bottom, #004787 1px, transparent 1px)`,
               backgroundSize: '60px 60px',
             }} />
           </div>
@@ -220,14 +220,14 @@ const ServicesPage = () => {
                 transition={{ duration: 0.8 }}
                 className="flex-1 text-left"
               >
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 dark:from-[#06cabc]/20 dark:to-[#06a6c4]/20 text-[#06cabc] mb-6">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 dark:from-[#004787]/20 dark:to-[#004787]/20 text-[#004787] mb-6">
                   <Sparkles size={16} />
                   <span className="text-sm font-medium">Results-Driven Agency</span>
                 </div>
 
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
                   <span className="block text-gray-900 dark:text-white">Digital Marketing</span>
-                  <span className="block bg-gradient-to-r from-[#06cabc] via-[#06a6c4] to-[#0699c4] bg-clip-text text-transparent">
+                  <span className="block bg-gradient-to-r from-[#004787] via-[#004787] to-[#004787] bg-clip-text text-transparent">
                     Services That Drive
                   </span>
                   <span className="block text-gray-900 dark:text-white">Real Results</span>
@@ -241,7 +241,7 @@ const ServicesPage = () => {
                   <motion.button
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.97 }}
-                    className="px-8 py-4 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] text-white font-semibold rounded-2xl shadow-xl flex items-center gap-2"
+                    className="px-8 py-4 bg-[#004787] text-white font-semibold rounded-2xl shadow-xl flex items-center gap-2"
                   >
                     <CheckCircle size={18} />
                     Get Free Audit
@@ -265,10 +265,10 @@ const ServicesPage = () => {
                 className="flex-1 grid grid-cols-2 gap-4"
               >
                 {[
-                  { icon: Rocket, value: '98%', label: 'Client Success Rate', color: 'from-[#06cabc] to-[#06a6c4]' },
-                  { icon: TrendingUp, value: '450%', label: 'Average ROI Delivered', color: 'from-[#06a6c4] to-[#0699c4]' },
-                  { icon: Users, value: '250+', label: 'Happy Clients', color: 'from-[#0699c4] to-[#06b4c4]' },
-                  { icon: Award, value: '10+', label: 'Industry Awards', color: 'from-[#06b4c4] to-[#06cabc]' },
+                  { icon: Rocket, value: '98%', label: 'Client Success Rate', color: 'from-[#004787] to-[#004787]' },
+                  { icon: TrendingUp, value: '450%', label: 'Average ROI Delivered', color: 'from-[#004787] to-[#004787]' },
+                  { icon: Users, value: '250+', label: 'Happy Clients', color: 'from-[#004787] to-[#004787]' },
+                  { icon: Award, value: '10+', label: 'Industry Awards', color: 'from-[#004787] to-[#004787]' },
                 ].map((stat, i) => (
                   <motion.div
                     key={i}
@@ -301,8 +301,8 @@ const ServicesPage = () => {
                 className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"
               >
                 <div className="flex items-center gap-3">
-                  <div className="p-2 bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 rounded-lg">
-                    <Filter size={20} className="text-[#06cabc]" />
+                  <div className="p-2 bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 rounded-lg">
+                    <Filter size={20} className="text-[#004787]" />
                   </div>
                   <div>
                     <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Our Services</h2>
@@ -323,18 +323,16 @@ const ServicesPage = () => {
                     return (
                       <motion.button
                         key={category.id}
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
                         onClick={() => setActiveTab(category.id)}
                         className={`group relative px-4 py-2.5 rounded-xl font-medium transition-all duration-300 flex items-center gap-2 flex-shrink-0 ${isActive
-                            ? 'text-white shadow-lg'
-                            : 'text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-800 hover:text-[#06cabc]'
+                          ? 'bg-[#004787] text-white shadow-lg'
+                          : 'text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-800 hover:text-[#004787]'
                           }`}
                       >
                         {isActive && (
                           <motion.div
                             layoutId="activeTab"
-                            className="absolute inset-0 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] rounded-xl z-[-1]"
+                            className="absolute inset-0 bg-[#004787] text-white rounded-xl z-10 shadow-lg"
                             transition={{ type: 'spring', stiffness: 300, damping: 30 }}
                           />
                         )}
@@ -374,7 +372,7 @@ const ServicesPage = () => {
                       </div>
                     )}
 
-                    <div className="relative h-full overflow-hidden rounded-3xl border border-[#06cabc]/20">
+                    <div className="relative h-full overflow-hidden rounded-3xl border border-[#004787]/20">
                       <div className={`absolute inset-0 p-1 bg-gradient-to-r ${service.color} rounded-3xl`}>
                         <div className="absolute inset-0 bg-white dark:bg-gray-800 rounded-3xl" />
                       </div>
@@ -419,7 +417,7 @@ const ServicesPage = () => {
                         <div className="mt-auto pt-6 border-t border-gray-200 dark:border-gray-700 flex items-center justify-between">
                           {/* <div>
                             <div className="text-xs text-gray-500 dark:text-gray-400">Starting at</div>
-                            <div className="text-base font-bold bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
+                            <div className="text-base font-bold bg-[#004787] bg-clip-text text-transparent">
                               {service.price}
                             </div>
                           </div> */}
@@ -437,7 +435,7 @@ const ServicesPage = () => {
                       <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: hoveredService === service.id ? 1 : 0 }}
-                        className="absolute inset-0 bg-gradient-to-t from-[#06cabc]/10 via-transparent to-transparent pointer-events-none rounded-3xl"
+                        className="absolute inset-0 bg-gradient-to-t from-[#004787]/10 via-transparent to-transparent pointer-events-none rounded-3xl"
                       />
                     </div>
                   </motion.div>
@@ -456,7 +454,7 @@ const ServicesPage = () => {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 text-[#06cabc] mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 text-[#004787] mb-4">
                 <CheckCircle size={16} />
                 <span className="text-sm font-medium">Why Choose Us</span>
               </div>
@@ -479,7 +477,7 @@ const ServicesPage = () => {
                   whileHover={{ y: -6 }}
                   className="p-8 rounded-3xl bg-gradient-to-b from-gray-50 to-white dark:from-gray-700 dark:to-gray-800 shadow-lg text-center"
                 >
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-r from-[#06cabc] to-[#06a6c4] flex items-center justify-center mx-auto mb-5 shadow-lg">
+                  <div className="w-14 h-14 rounded-2xl bg-[#004787] flex items-center justify-center mx-auto mb-5 shadow-lg">
                     <b.icon className="h-7 w-7 text-white" />
                   </div>
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">{b.title}</h3>
@@ -499,25 +497,25 @@ const ServicesPage = () => {
               viewport={{ once: true }}
               className="text-center mb-20"
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 text-[#06cabc] mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 text-[#004787] mb-4">
                 <Brain size={16} />
                 <span className="text-sm font-medium">Our Methodology</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
                 <span className="text-gray-900 dark:text-white">How Our Digital Marketing </span>
-                <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">Services Work</span>
+                <span className="bg-[#004787] bg-clip-text text-transparent">Services Work</span>
               </h2>
             </motion.div>
 
             <div className="relative max-w-6xl mx-auto">
-              <div className="hidden lg:block absolute top-24 left-0 right-0 h-1 bg-gradient-to-r from-[#06cabc] via-[#06a6c4] to-[#0699c4]" />
+              <div className="hidden lg:block absolute top-24 left-0 right-0 h-1 bg-gradient-to-r from-[#004787] via-[#004787] to-[#004787]" />
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {[
-                  { step: 1, title: 'Strategy', desc: 'We analyze your business, competitors, and audience to build a winning plan.', icon: Search, color: 'from-[#06cabc] to-[#06a6c4]' },
-                  { step: 2, title: 'Execution', desc: 'We implement SEO, ads, and marketing campaigns with precision and speed.', icon: Zap, color: 'from-[#06cabc] to-[#0699c4]' },
-                  { step: 3, title: 'Optimization', desc: 'We continuously test, tweak, and improve to maximise performance.', icon: TrendingUp, color: 'from-[#06cabc] to-[#06b4c4]' },
-                  { step: 4, title: 'Reporting', desc: 'We provide clear, jargon-free reports with actionable insights every month.', icon: BarChart3, color: 'from-[#06cabc] to-[#06dac4]' },
+                  { step: 1, title: 'Strategy', desc: 'We analyze your business, competitors, and audience to build a winning plan.', icon: Search, color: 'from-[#004787] to-[#004787]' },
+                  { step: 2, title: 'Execution', desc: 'We implement SEO, ads, and marketing campaigns with precision and speed.', icon: Zap, color: 'from-[#004787] to-[#004787]' },
+                  { step: 3, title: 'Optimization', desc: 'We continuously test, tweak, and improve to maximise performance.', icon: TrendingUp, color: 'from-[#004787] to-[#004787]' },
+                  { step: 4, title: 'Reporting', desc: 'We provide clear, jargon-free reports with actionable insights every month.', icon: BarChart3, color: 'from-[#004787] to-[#004787]' },
                 ].map((p, i) => (
                   <motion.div
                     key={p.step}
@@ -529,7 +527,7 @@ const ServicesPage = () => {
                     className="relative"
                   >
                     <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center border-4 border-white dark:border-gray-800 shadow-xl z-10">
-                      <span className="text-lg font-bold bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">{p.step}</span>
+                      <span className="text-lg font-bold bg-[#004787] bg-clip-text text-transparent">{p.step}</span>
                     </div>
                     <div className="pt-10">
                       <div className="p-8 rounded-3xl bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 shadow-2xl">
@@ -556,7 +554,7 @@ const ServicesPage = () => {
               viewport={{ once: true }}
               className="text-center mb-14"
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 text-[#06cabc] mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 text-[#004787] mb-4">
                 <Globe size={16} />
                 <span className="text-sm font-medium">Our Expertise</span>
               </div>
@@ -574,7 +572,7 @@ const ServicesPage = () => {
                   whileHover={{ scale: 1.08, y: -4 }}
                   className="flex flex-col items-center gap-3 px-10 py-8 bg-gradient-to-b from-gray-50 to-white dark:from-gray-700 dark:to-gray-800 rounded-3xl shadow-lg min-w-[140px]"
                 >
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-r from-[#06cabc] to-[#06a6c4] flex items-center justify-center shadow-md">
+                  <div className="w-14 h-14 rounded-2xl bg-[#004787] flex items-center justify-center shadow-md">
                     <ind.icon className="h-7 w-7 text-white" />
                   </div>
                   <span className="text-sm font-semibold text-gray-900 dark:text-white text-center">{ind.name}</span>
@@ -593,7 +591,7 @@ const ServicesPage = () => {
               viewport={{ once: true }}
               className="text-center mb-14"
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 text-[#06cabc] mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 text-[#004787] mb-4">
                 <Star size={16} />
                 <span className="text-sm font-medium">Client Reviews</span>
               </div>
@@ -611,10 +609,10 @@ const ServicesPage = () => {
                   whileHover={{ y: -6 }}
                   className="relative p-8 bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-700"
                 >
-                  <Quote className="h-8 w-8 text-[#06cabc]/30 mb-4" />
+                  <Quote className="h-8 w-8 text-[#004787]/30 mb-4" />
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">"{t.text}"</p>
                   <div className="flex items-center gap-3 pt-4 border-t border-gray-100 dark:border-gray-700">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-r from-[#06cabc] to-[#06a6c4] flex items-center justify-center text-white font-bold">
+                    <div className="w-10 h-10 rounded-full bg-[#004787] flex items-center justify-center text-white font-bold">
                       {t.name[0]}
                     </div>
                     <div>
@@ -635,7 +633,7 @@ const ServicesPage = () => {
 
         {/* ─── FINAL CTA ─────────────────────────────────── */}
         <section className="relative py-32 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#06cabc] via-[#06a6c4] to-[#0699c4]" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#004787] via-[#004787] to-[#004787]" />
           <div className="absolute inset-0">
             {[...Array(12)].map((_, i) => (
               <motion.div
@@ -666,7 +664,7 @@ const ServicesPage = () => {
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="px-10 py-5 bg-white text-[#06cabc] font-bold rounded-2xl shadow-2xl flex items-center gap-3 justify-center"
+                    className="px-10 py-5 bg-white text-[#004787] font-bold rounded-2xl shadow-2xl flex items-center gap-3 justify-center"
                   >
                     <CheckCircle size={20} />
                     Get Free Audit

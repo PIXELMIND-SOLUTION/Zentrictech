@@ -78,7 +78,7 @@ const fadeUp = {
 // ── Section badge ─────────────────────────────────────────────────────────────
 function SectionBadge({ children }) {
   return (
-    <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-teal-50 text-teal-700 border border-teal-200 mb-4">
+    <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-[#004787] text-white border border-[#004787] mb-4">
       {children}
     </span>
   );
@@ -89,7 +89,7 @@ function Field({ label, required, children }) {
   return (
     <div>
       <label className="block text-sm font-bold text-gray-700 mb-2 tracking-wide">
-        {label}{required && <span className="text-teal-600 ml-0.5">*</span>}
+        {label}{required && <span className="text-[#004787] ml-0.5">*</span>}
       </label>
       {children}
     </div>
@@ -109,10 +109,10 @@ export default function ContactPage() {
   const handleSubmit = e => { e.preventDefault(); setSubmitted(true); };
 
   const contactCards = [
-    { Icon: MapPinIcon, label: 'Our Office', value: 'Hitech City, Hyderabad, Telangana — 500081', sub: 'India', iconBg: 'bg-teal-50', iconColor: 'text-teal-600', href: 'https://maps.google.com' },
-    { Icon: PhoneIcon, label: 'Call Us', value: '+91 98765 43210', sub: 'Mon–Sat, 9am–7pm IST', iconBg: 'bg-cyan-50', iconColor: 'text-cyan-600', href: 'tel:+919876543210' },
-    { Icon: MailIcon, label: 'Email Us', value: 'info@pixelmindsolutions.com', sub: 'Reply within 24 hrs', iconBg: 'bg-teal-50', iconColor: 'text-teal-700', href: 'mailto:info@pixelmindsolutions.com' },
-    { Icon: WhatsAppIcon, label: 'WhatsApp', value: '+91 98765 43210', sub: 'Chat instantly', iconBg: 'bg-emerald-50', iconColor: 'text-emerald-600', href: 'https://wa.me/919876543210' },
+    { Icon: MapPinIcon, label: 'Our Office', value: 'Hitech City, Hyderabad, Telangana — 500081', sub: 'India', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'https://maps.google.com' },
+    { Icon: PhoneIcon, label: 'Call Us', value: '+91 98765 43210', sub: 'Mon–Sat, 9am–7pm IST', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'tel:+919876543210' },
+    { Icon: MailIcon, label: 'Email Us', value: 'info@zentricstech.com', sub: 'Reply within 24 hrs', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'mailto:info@zentricstech.com' },
+    { Icon: WhatsAppIcon, label: 'WhatsApp', value: '+91 98765 43210', sub: 'Chat instantly', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'https://wa.me/919876543210' },
   ];
 
   const faqs = [
@@ -134,11 +134,11 @@ export default function ContactPage() {
     <>
 
       <Helmet>
-        <title>About Digital Marketing Agency | PixelMind Solutions</title>
+        <title>About Digital Marketing Agency | Zentricstech Solutions</title>
 
         <meta
           name="description"
-          content="PixelMind Solutions is a trusted digital marketing agency helping businesses grow with SEO, PPC, and social media strategies."
+          content="Zentricstech Solutions is a trusted digital marketing agency helping businesses grow with SEO, PPC, and social media strategies."
         />
 
         <meta
@@ -146,12 +146,12 @@ export default function ContactPage() {
           content="digital marketing company, SEO agency Hyderabad, marketing experts"
         />
 
-        <meta property="og:title" content="About PixelMind Solutions" />
+        <meta property="og:title" content="About Zentricstech Solutions" />
         <meta property="og:description" content="Meet our digital marketing experts and growth strategies." />
-        <meta property="og:url" content="https://www.pixelmindsolutions.in/about" />
-        <meta property="og:image" content="https://www.pixelmindsolutions.in/about.jpg" />
+        <meta property="og:url" content="https://www.zentricstech.com/about" />
+        <meta property="og:image" content="https://www.zentricstech.com/about.jpg" />
 
-        <link rel="canonical" href="https://www.pixelmindsolutions.in/about" />
+        <link rel="canonical" href="https://www.zentricstech.com/about" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -168,23 +168,23 @@ export default function ContactPage() {
 
               {/* Text */}
               <motion.div initial="hidden" animate="visible" variants={fadeUp}>
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-100 border border-teal-200 text-teal-700 text-xs font-bold tracking-widest uppercase mb-6">
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#004787] border border-[#004787] text-white text-xs font-bold tracking-widest uppercase mb-6">
                   <SparklesIcon /> Free Consultation Available
                 </div>
                 <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6 text-gray-900">
                   Get In Touch<br />
-                  <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">With Us</span>
+                  <span className="bg-[#004787] bg-clip-text text-transparent">With Us</span>
                 </h1>
                 <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-lg">
                   Let's discuss how we can help grow your business with digital marketing and web solutions. Looking for a{' '}
-                  <strong className="text-teal-700">digital marketing agency in Hyderabad</strong>? Contact us today.
+                  <strong className="text-[#004787]">digital marketing agency in Hyderabad</strong>? Contact us today.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <button className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-gradient-to-r from-teal-600 to-cyan-500 text-white font-bold text-sm shadow-lg shadow-teal-500/25 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
+                  <button className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-[#004787] text-white font-bold text-sm shadow-lg shadow-teal-500/25 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
                     Get Free Consultation <ArrowRightIcon />
                   </button>
                   <a href="tel:+919876543210"
-                    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl border-2 border-teal-600 text-teal-700 font-bold text-sm hover:bg-teal-50 hover:-translate-y-0.5 transition-all duration-200">
+                    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl border-2 border-[#004787] text-[#004787] font-bold text-sm hover:bg-[#004787] hover:text-white hover:-translate-y-0.5 transition-all duration-200">
                     <PhoneIcon /> Call Now
                   </a>
                 </div>
@@ -204,11 +204,11 @@ export default function ContactPage() {
                   ))}
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="bg-white rounded-3xl p-8 shadow-2xl shadow-teal-500/15 text-center w-52 border border-teal-100">
-                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal-500 to-cyan-400 flex items-center justify-center mx-auto mb-4 text-white">
+                      <div className="w-14 h-14 rounded-2xl bg-[#004787] flex items-center justify-center mx-auto mb-4 text-white">
                         <MailIcon />
                       </div>
                       <p className="text-xs font-semibold text-gray-500 mb-1">We reply within</p>
-                      <p className="text-3xl font-extrabold text-teal-600">24hrs</p>
+                      <p className="text-3xl font-extrabold text-[#004787]">24hrs</p>
                       <div className="flex justify-center gap-1 mt-3">
                         {[...Array(5)].map((_, j) => <span key={j} className="text-amber-400"><StarIcon /></span>)}
                       </div>
@@ -238,7 +238,7 @@ export default function ContactPage() {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-12">
             <SectionBadge>Contact Information</SectionBadge>
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-              Reach Us <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Anytime</span>
+              Reach Us <span className="bg-[#004787] bg-clip-text text-transparent">Anytime</span>
             </h2>
           </motion.div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -267,7 +267,7 @@ export default function ContactPage() {
                 <SectionBadge>Send A Message</SectionBadge>
                 <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-5 leading-tight">
                   Let's Start a{' '}
-                  <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Conversation</span>
+                  <span className="bg-[#004787] bg-clip-text text-transparent">Conversation</span>
                 </h2>
                 <p className="text-base text-gray-600 leading-relaxed mb-8">
                   Fill in the form and our team will get back to you with a{' '}
@@ -276,7 +276,7 @@ export default function ContactPage() {
                 <ul className="space-y-4 mb-10">
                   {['Free 30-min strategy session', 'No obligation or hidden fees', 'Dedicated account manager', 'Results in 30 days or we work free'].map((item, i) => (
                     <li key={i} className="flex items-center gap-3">
-                      <span className="w-7 h-7 rounded-lg bg-teal-600 text-white flex items-center justify-center flex-shrink-0"><CheckIcon /></span>
+                      <span className="w-7 h-7 rounded-lg bg-[#004787] text-white flex items-center justify-center flex-shrink-0"><CheckIcon /></span>
                       <span className="text-sm font-medium text-gray-700">{item}</span>
                     </li>
                   ))}
@@ -293,11 +293,11 @@ export default function ContactPage() {
                 <div className="bg-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-teal-500/10 border border-teal-100">
                   {submitted ? (
                     <div className="text-center py-12">
-                      <div className="w-20 h-20 rounded-full bg-gradient-to-br from-teal-500 to-cyan-400 flex items-center justify-center mx-auto mb-6 text-white text-3xl font-bold">✓</div>
+                      <div className="w-20 h-20 rounded-full bg-[#004787] flex items-center justify-center mx-auto mb-6 text-white text-3xl font-bold">✓</div>
                       <h3 className="text-2xl font-bold text-gray-900 mb-3">Message Sent!</h3>
                       <p className="text-gray-500 text-sm leading-relaxed mb-6">Thank you for reaching out. We'll get back to you within 24 hours with a personalised plan.</p>
                       <button onClick={() => setSubmitted(false)}
-                        className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-teal-600 to-cyan-500 text-white text-sm font-bold hover:opacity-90 transition-opacity">
+                        className="px-6 py-2.5 rounded-xl bg-[#004787] text-white text-sm font-bold hover:opacity-90 transition-opacity">
                         Send Another
                       </button>
                     </div>
@@ -331,12 +331,12 @@ export default function ContactPage() {
                           placeholder="Tell us about your project and goals…" className={`${inputCls} resize-none`} />
                       </Field>
                       <button type="submit"
-                        className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-gradient-to-r from-teal-600 to-cyan-500 text-white font-bold text-base shadow-lg shadow-teal-500/25 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
+                        className="w-full flex items-center justify-center gap-2 py-4 rounded-xl bg-[#004787] text-white font-bold text-base shadow-lg shadow-teal-500/25 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
                         <SendIcon /> Get Free Consultation
                       </button>
                       <p className="flex items-center justify-center gap-2 text-xs text-gray-500 text-center">
                         <ClockIcon />
-                        We will get back to you within <strong className="text-teal-600">24 hours</strong>.
+                        We will get back to you within <strong className="text-[#004787]">24 hours</strong>.
                       </p>
                     </form>
                   )}
@@ -353,23 +353,23 @@ export default function ContactPage() {
             className="text-center py-16 px-6">
             <SectionBadge>Find Us</SectionBadge>
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
-              Visit Our <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Hyderabad Office</span>
+              Visit Our <span className="bg-[#004787] bg-clip-text text-transparent">Hyderabad Office</span>
             </h2>
             <p className="text-gray-500 text-sm">Hitech City, Hyderabad — the heart of India's IT capital</p>
           </motion.div>
           <div className="relative overflow-hidden h-96 lg:h-[460px]">
             <iframe
-              title="PixelMind Solutions Office"
+              title="Zentricstech Solutions Office"
               width="100%" height="100%"
               className="border-0 block w-full h-full"
               loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.55686048698!2d78.39158967412615!3d17.480911500106153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f9ee6211d7041%3A0x57e8ab2675c2f578!2sPIXELMINDSOLUTIONS%20PVT.LTD%20-%20Software%20Company%20in%20Hyderabad!5e0!3m2!1sen!2sin!4v1774515986832!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.55686048698!2d78.39158967412615!3d17.480911500106153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f9ee6211d7041%3A0x57e8ab2675c2f578!2szentricstech%20PVT.LTD%20-%20Software%20Company%20in%20Hyderabad!5e0!3m2!1sen!2sin!4v1774515986832!5m2!1sen!2sin"
             />
             <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex items-center gap-3 bg-white rounded-full px-6 py-3 shadow-xl border border-teal-100 whitespace-nowrap">
-              <span className="text-teal-600"><MapPinIcon /></span>
+              <span className="text-[#004787]"><MapPinIcon /></span>
               <span className="font-bold text-sm text-gray-900">Hitech City, Hyderabad — 500081</span>
               <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer"
-                className="ml-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-teal-600 to-cyan-500 text-white text-xs font-bold hover:opacity-90 transition-opacity no-underline">
+                className="ml-2 px-4 py-1.5 rounded-full bg-[#004787] text-white text-xs font-bold hover:opacity-90 transition-opacity no-underline">
                 Get Directions
               </a>
             </div>
@@ -382,7 +382,7 @@ export default function ContactPage() {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-12">
               <SectionBadge>FAQ</SectionBadge>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-                Common <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Questions</span>
+                Common <span className="bg-[#004787] bg-clip-text text-transparent">Questions</span>
               </h2>
             </motion.div>
             <div className="space-y-3">
@@ -391,10 +391,10 @@ export default function ContactPage() {
                   className={`rounded-2xl border-2 overflow-hidden transition-colors duration-200 ${openFaq === i ? 'border-teal-400 bg-teal-50' : 'border-gray-100 bg-white'}`}>
                   <button onClick={() => setOpenFaq(openFaq === i ? null : i)}
                     className="w-full px-6 py-5 text-left flex items-center gap-4 focus:outline-none">
-                    <span className={`w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 transition-colors duration-200 ${openFaq === i ? 'bg-teal-600 text-white' : 'bg-teal-50 text-teal-600'}`}>
+                    <span className={`w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 transition-colors duration-200 ${openFaq === i ? 'bg-[#004787] text-white' : 'bg-teal-50 text-[#004787]'}`}>
                       {openFaq === i ? <MinusIcon /> : <PlusIcon />}
                     </span>
-                    <span className={`font-bold text-base transition-colors duration-200 ${openFaq === i ? 'text-teal-700' : 'text-gray-900'}`}>
+                    <span className={`font-bold text-base transition-colors duration-200 ${openFaq === i ? 'text-[#004787]' : 'text-gray-900'}`}>
                       {faq.q}
                     </span>
                   </button>
@@ -412,12 +412,12 @@ export default function ContactPage() {
         </section>
 
         {/* ── 6. TRUST ELEMENTS ────────────────────────────────────────────── */}
-        <section className="bg-gradient-to-br from-teal-50 to-cyan-50 py-20">
+        <section className="bg-[#f8fafc] py-20">
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-12">
               <SectionBadge>Client Love</SectionBadge>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-                What Our Clients <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Say</span>
+                What Our Clients <span className="bg-[#004787] bg-clip-text text-transparent">Say</span>
               </h2>
             </motion.div>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -429,7 +429,7 @@ export default function ContactPage() {
                   </div>
                   <p className="text-gray-600 text-sm leading-relaxed mb-6 italic">"{t.text}"</p>
                   <div className="flex items-center gap-3">
-                    <div className="w-11 h-11 rounded-full bg-gradient-to-br from-teal-500 to-cyan-400 text-white flex items-center justify-center text-base font-extrabold flex-shrink-0">
+                    <div className="w-11 h-11 rounded-full bg-[#004787] text-white flex items-center justify-center text-base font-extrabold flex-shrink-0">
                       {t.name[0]}
                     </div>
                     <div>
@@ -446,7 +446,7 @@ export default function ContactPage() {
               className="bg-white rounded-2xl border-2 border-teal-100 px-10 py-8 flex flex-wrap justify-center gap-10 shadow-sm">
               {stats.map(([v, l], i) => (
                 <div key={i} className="text-center">
-                  <p className="text-3xl font-extrabold bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent leading-none mb-1">{v}</p>
+                  <p className="text-3xl font-extrabold bg-[#004787] bg-clip-text text-transparent leading-none mb-1">{v}</p>
                   <p className="text-xs font-medium text-gray-500">{l}</p>
                 </div>
               ))}
@@ -461,18 +461,18 @@ export default function ContactPage() {
           </div>
           <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-              <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-teal-500/20 text-teal-300 border border-teal-500/30 mb-6">
+              <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-[#004787] text-[#fff] border border-teal-500/30 mb-6">
                 Ready to Grow?
               </span>
               <h2 className="text-4xl lg:text-6xl font-bold text-white mb-5 leading-tight">
                 Ready to Grow<br />
-                <span className="text-teal-300">Your Business?</span>
+                <span className="text-[#004787]">Your Business?</span>
               </h2>
               <p className="text-slate-400 text-lg leading-relaxed max-w-xl mx-auto mb-10">
                 Let's create a strategy that drives real results for your business. No fluff, no guesswork — just measurable growth.
               </p>
               <div className="flex flex-wrap gap-4 justify-center mb-12">
-                <button className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-teal-500 to-cyan-500 text-white font-bold text-base shadow-lg shadow-teal-500/30 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
+                <button className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-[#fff] text-[#004787] font-bold text-base shadow-lg shadow-teal-500/30 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
                   Get Free Audit <ArrowRightIcon />
                 </button>
                 <button className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border-2 border-white/20 text-white font-bold text-base hover:border-teal-400 hover:bg-white/5 transition-all duration-200">

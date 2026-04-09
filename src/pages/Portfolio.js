@@ -32,7 +32,7 @@ const PortfolioPage = () => {
         { icon: BarChart, label: 'Keyword Rankings', value: 'Top 3' },
       ],
       image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200',
-      color: 'from-[#06cabc] to-[#06a6c4]',
+      color: 'from-[#004787] to-[#004787]',
       tags: ['Real Estate', 'Local SEO', 'Organic'],
       featured: true,
       keyResult: '+300% Traffic Growth',
@@ -54,7 +54,7 @@ const PortfolioPage = () => {
         { icon: Users, label: 'New Customers', value: '3,500+' },
       ],
       image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200',
-      color: 'from-[#06cabc] to-[#0699c4]',
+      color: 'from-[#004787] to-[#004787]',
       tags: ['E-commerce', 'Google Ads', 'Meta Ads'],
       featured: true,
       keyResult: '6.4X ROAS Achieved',
@@ -76,7 +76,7 @@ const PortfolioPage = () => {
         { icon: BarChart, label: 'Local Visibility', value: '+400%' },
       ],
       image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200',
-      color: 'from-[#06cabc] to-[#06b4c4]',
+      color: 'from-[#004787] to-[#004787]',
       tags: ['Healthcare', 'Local SEO', 'Social Ads'],
       featured: false,
       keyResult: '+180% Online Appointments',
@@ -98,7 +98,7 @@ const PortfolioPage = () => {
         { icon: Users, label: 'Leads / Month', value: '200+' },
       ],
       image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200',
-      color: 'from-[#06cabc] to-[#06dac4]',
+      color: 'from-[#004787] to-[#004787]',
       tags: ['Education', 'Web Dev', 'Lead Gen'],
       featured: false,
       keyResult: '3X Admission Inquiries',
@@ -120,7 +120,7 @@ const PortfolioPage = () => {
         { icon: Share2, label: 'Brand Mentions', value: '+280%' },
       ],
       image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200',
-      color: 'from-[#06cabc] to-[#06f4c4]',
+      color: 'from-[#004787] to-[#06f4c4]',
       tags: ['Local Business', 'Social Media', 'Influencer'],
       featured: true,
       keyResult: '+500% Social Engagement',
@@ -142,7 +142,7 @@ const PortfolioPage = () => {
         { icon: BarChart, label: 'Pipeline Value', value: '+200%' },
       ],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200',
-      color: 'from-[#06cabc] to-[#0684c4]',
+      color: 'from-[#004787] to-[#0684c4]',
       tags: ['B2B', 'LinkedIn Ads', 'SaaS'],
       featured: false,
       keyResult: '-50% Cost per Lead',
@@ -196,7 +196,7 @@ const PortfolioPage = () => {
     <>
 
       <Helmet>
-        <title>Digital Marketing Case Studies | PixelMind Solutions</title>
+        <title>Digital Marketing Case Studies | Zentricstech Solutions</title>
 
         <meta
           name="description"
@@ -208,12 +208,12 @@ const PortfolioPage = () => {
           content="SEO case studies, digital marketing results, PPC success stories, marketing portfolio"
         />
 
-        <meta property="og:title" content="Marketing Case Studies | PixelMind Solutions" />
+        <meta property="og:title" content="Marketing Case Studies | Zentricstech Solutions" />
         <meta property="og:description" content="Real results from SEO, PPC, and marketing campaigns." />
-        <meta property="og:url" content="https://www.pixelmindsolutions.in/portfolio" />
-        <meta property="og:image" content="https://www.pixelmindsolutions.in/portfolio.jpg" />
+        <meta property="og:url" content="https://www.zentricstech.com/portfolio" />
+        <meta property="og:image" content="https://www.zentricstech.com/portfolio.jpg" />
 
-        <link rel="canonical" href="https://www.pixelmindsolutions.in/portfolio" />
+        <link rel="canonical" href="https://www.zentricstech.com/portfolio" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -223,11 +223,11 @@ const PortfolioPage = () => {
         {/* ─── HERO ──────────────────────────────────────── */}
         <section className="relative py-32 overflow-hidden">
           <div className="absolute inset-0">
-            <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#06cabc]/10 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#06a6c4]/10 rounded-full blur-3xl" />
+            <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#004787]/10 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#004787]/10 rounded-full blur-3xl" />
             <div className="absolute inset-0 opacity-10" style={{
-              backgroundImage: `linear-gradient(to right, #06cabc 1px, transparent 1px),
-                               linear-gradient(to bottom, #06cabc 1px, transparent 1px)`,
+              backgroundImage: `linear-gradient(to right, #004787 1px, transparent 1px),
+                               linear-gradient(to bottom, #004787 1px, transparent 1px)`,
               backgroundSize: '60px 60px',
             }} />
           </div>
@@ -239,14 +239,14 @@ const PortfolioPage = () => {
               transition={{ duration: 0.8 }}
               className="text-center max-w-5xl mx-auto"
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 dark:from-[#06cabc]/20 dark:to-[#06a6c4]/20 text-[#06cabc] mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 dark:from-[#004787]/20 dark:to-[#004787]/20 text-[#004787] mb-6">
                 <Sparkles size={16} />
                 <span className="text-sm font-medium">Proven Results</span>
               </div>
 
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8">
                 <span className="block text-gray-900 dark:text-white mb-4">Our Work That</span>
-                <span className="block bg-gradient-to-r from-[#06cabc] via-[#06a6c4] to-[#0699c4] bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-[#004787] via-[#004787] to-[#004787] bg-clip-text text-transparent">
                   Drives Real Results
                 </span>
               </h1>
@@ -271,7 +271,7 @@ const PortfolioPage = () => {
                     whileHover={{ scale: 1.05 }}
                     className="text-center p-6 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl shadow-lg"
                   >
-                    <stat.icon className="h-8 w-8 text-[#06cabc] mx-auto mb-3" />
+                    <stat.icon className="h-8 w-8 text-[#004787] mx-auto mb-3" />
                     <div className="text-3xl font-bold text-gray-900 dark:text-white">{stat.value}</div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">{stat.label}</div>
                   </motion.div>
@@ -282,7 +282,7 @@ const PortfolioPage = () => {
                 <motion.button
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.97 }}
-                  className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] text-white font-semibold rounded-2xl shadow-xl"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-[#004787] text-white font-semibold rounded-2xl shadow-xl"
                 >
                   <Search size={18} />
                   View Case Studies
@@ -312,8 +312,8 @@ const PortfolioPage = () => {
                 className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"
               >
                 <div className="flex items-center gap-3">
-                  <div className="p-2 bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 rounded-lg">
-                    <Filter size={20} className="text-[#06cabc]" />
+                  <div className="p-2 bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 rounded-lg">
+                    <Filter size={20} className="text-[#004787]" />
                   </div>
                   <div>
                     <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Case Studies</h2>
@@ -338,13 +338,13 @@ const PortfolioPage = () => {
                         onClick={() => setActiveFilter(category.id)}
                         className={`group relative px-4 py-2.5 rounded-xl font-medium transition-all duration-300 flex items-center gap-2 flex-shrink-0 ${isActive
                             ? 'text-white shadow-lg'
-                            : 'text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-800 hover:text-[#06cabc]'
+                            : 'text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-800 hover:text-[#004787]'
                           }`}
                       >
                         {isActive && (
                           <motion.div
                             layoutId="activeTab"
-                            className="absolute inset-0 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] rounded-xl z-[-1]"
+                            className="absolute inset-0 bg-[#004787] rounded-xl z-[-1]"
                             transition={{ type: 'spring', stiffness: 300, damping: 30 }}
                           />
                         )}
@@ -384,7 +384,7 @@ const PortfolioPage = () => {
                       </div>
                     )}
 
-                    <div className="relative h-full overflow-hidden rounded-3xl border border-[#06cabc]/20">
+                    <div className="relative h-full overflow-hidden rounded-3xl border border-[#004787]/20">
                       <div className={`absolute inset-0 p-1 bg-gradient-to-r ${study.color} rounded-3xl`}>
                         <div className="absolute inset-0 bg-white dark:bg-gray-800 rounded-3xl" />
                       </div>
@@ -401,7 +401,7 @@ const PortfolioPage = () => {
 
                           {/* Key Result Badge */}
                           <div className="absolute top-4 right-4">
-                            <div className="px-3 py-1.5 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] text-white text-xs font-bold rounded-full shadow-lg">
+                            <div className="px-3 py-1.5 bg-[#004787] text-white text-xs font-bold rounded-full shadow-lg">
                               {study.keyResult}
                             </div>
                           </div>
@@ -438,7 +438,7 @@ const PortfolioPage = () => {
                               {study.results.slice(0, 4).map((r, idx) => (
                                 <div key={idx} className="text-center p-2 bg-gray-50 dark:bg-gray-700 rounded-xl">
                                   <div className="flex items-center justify-center gap-1 mb-1">
-                                    <r.icon size={13} className="text-[#06cabc]" />
+                                    <r.icon size={13} className="text-[#004787]" />
                                     <div className="text-sm font-bold text-gray-900 dark:text-white">{r.value}</div>
                                   </div>
                                   <div className="text-xs text-gray-500 dark:text-gray-400">{r.label}</div>
@@ -480,7 +480,7 @@ const PortfolioPage = () => {
                         <motion.div
                           initial={{ opacity: 0 }}
                           animate={{ opacity: hoveredCase === study.id ? 1 : 0 }}
-                          className="absolute inset-0 bg-gradient-to-t from-[#06cabc]/10 via-transparent to-transparent pointer-events-none rounded-3xl"
+                          className="absolute inset-0 bg-gradient-to-t from-[#004787]/10 via-transparent to-transparent pointer-events-none rounded-3xl"
                         />
                       </div>
                     </div>
@@ -498,7 +498,7 @@ const PortfolioPage = () => {
                 <p className="text-gray-600 dark:text-gray-400 mb-6">Try selecting a different category or view all projects.</p>
                 <button
                   onClick={() => setActiveFilter('all')}
-                  className="px-6 py-3 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] text-white font-semibold rounded-xl"
+                  className="px-6 py-3 bg-[#004787] text-white font-semibold rounded-xl"
                 >
                   View All Projects
                 </button>
@@ -516,12 +516,12 @@ const PortfolioPage = () => {
               viewport={{ once: true }}
               className="text-center mb-14"
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 text-[#06cabc] mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 text-[#004787] mb-4">
                 <BarChart size={16} />
                 <span className="text-sm font-medium">Our Track Record</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-                Our Portfolio <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">Results</span>
+                Our Portfolio <span className="bg-[#004787] bg-clip-text text-transparent">Results</span>
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                 Measurable impact across all client projects — from traffic to revenue.
@@ -530,10 +530,10 @@ const PortfolioPage = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { value: '200%+', label: 'Average Traffic Growth', color: 'from-[#06cabc] to-[#06a6c4]', icon: TrendingUp },
-                { value: '5X ROI', label: 'On Ad Campaigns', color: 'from-[#06a6c4] to-[#0699c4]', icon: DollarSign },
-                { value: '100+', label: 'Projects Delivered', color: 'from-[#0699c4] to-[#06b4c4]', icon: Rocket },
-                { value: '50+', label: 'Happy Clients', color: 'from-[#06b4c4] to-[#06cabc]', icon: Users },
+                { value: '200%+', label: 'Average Traffic Growth', color: 'from-[#004787] to-[#004787]', icon: TrendingUp },
+                { value: '5X ROI', label: 'On Ad Campaigns', color: 'from-[#004787] to-[#004787]', icon: DollarSign },
+                { value: '100+', label: 'Projects Delivered', color: 'from-[#004787] to-[#004787]', icon: Rocket },
+                { value: '50+', label: 'Happy Clients', color: 'from-[#004787] to-[#004787]', icon: Users },
               ].map((stat, i) => (
                 <motion.div
                   key={i}
@@ -567,7 +567,7 @@ const PortfolioPage = () => {
               viewport={{ once: true }}
               className="text-center mb-14"
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 text-[#06cabc] mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 text-[#004787] mb-4">
                 <Globe size={16} />
                 <span className="text-sm font-medium">Our Expertise</span>
               </div>
@@ -585,7 +585,7 @@ const PortfolioPage = () => {
                   whileHover={{ scale: 1.08, y: -4 }}
                   className="flex flex-col items-center gap-3 px-10 py-8 bg-gradient-to-b from-gray-50 to-white dark:from-gray-700 dark:to-gray-800 rounded-3xl shadow-lg min-w-[140px]"
                 >
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-r from-[#06cabc] to-[#06a6c4] flex items-center justify-center shadow-md">
+                  <div className="w-14 h-14 rounded-2xl bg-[#004787] flex items-center justify-center shadow-md">
                     <ind.icon className="h-7 w-7 text-white" />
                   </div>
                   <span className="text-sm font-semibold text-gray-900 dark:text-white text-center">{ind.name}</span>
@@ -604,7 +604,7 @@ const PortfolioPage = () => {
               viewport={{ once: true }}
               className="text-center mb-14"
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 text-[#06cabc] mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 text-[#004787] mb-4">
                 <Star size={16} />
                 <span className="text-sm font-medium">Client Reviews</span>
               </div>
@@ -622,10 +622,10 @@ const PortfolioPage = () => {
                   whileHover={{ y: -6 }}
                   className="p-8 bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-700"
                 >
-                  <Quote className="h-8 w-8 text-[#06cabc]/30 mb-4" />
+                  <Quote className="h-8 w-8 text-[#004787]/30 mb-4" />
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">"{t.text}"</p>
                   <div className="flex items-center gap-3 pt-4 border-t border-gray-100 dark:border-gray-700">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-r from-[#06cabc] to-[#06a6c4] flex items-center justify-center text-white font-bold">
+                    <div className="w-10 h-10 rounded-full bg-[#004787] flex items-center justify-center text-white font-bold">
                       {t.name[0]}
                     </div>
                     <div>
@@ -646,7 +646,7 @@ const PortfolioPage = () => {
 
         {/* ─── FINAL CTA ─────────────────────────────────── */}
         <section className="relative py-32 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#06cabc] via-[#06a6c4] to-[#0699c4]" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#004787] via-[#004787] to-[#004787]" />
           <div className="absolute inset-0">
             {[...Array(15)].map((_, i) => (
               <motion.div
@@ -682,7 +682,7 @@ const PortfolioPage = () => {
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="px-10 py-5 bg-white text-[#06cabc] font-bold rounded-2xl shadow-2xl flex items-center justify-center gap-3"
+                    className="px-10 py-5 bg-white text-[#004787] font-bold rounded-2xl shadow-2xl flex items-center justify-center gap-3"
                   >
                     <CheckCircle size={20} />
                     Get Free Audit

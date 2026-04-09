@@ -113,12 +113,12 @@ const Icons = {
 export default function AboutPage() {
 
   const team = [
-    { name: 'Ravi Kumar', role: 'CEO & Founder', initials: 'RK', color: '#0D9488', expertise: 'Digital Strategy' },
-    { name: 'Priya Sharma', role: 'Head of SEO', initials: 'PS', color: '#0891B2', expertise: 'SEO & Analytics' },
-    { name: 'Arjun Mehta', role: 'Web Dev Lead', initials: 'AM', color: '#0F766E', expertise: 'Full-Stack Dev' },
-    { name: 'Sneha Rao', role: 'Marketing Director', initials: 'SR', color: '#06B6D4', expertise: 'Performance Mktg' },
-    { name: 'Kiran Reddy', role: 'Mobile Dev Lead', initials: 'KR', color: '#0E7490', expertise: 'React Native / Flutter' },
-    { name: 'Divya Nair', role: 'Content Strategist', initials: 'DN', color: '#115E59', expertise: 'Content & Copywriting' },
+    { name: 'Ravi Kumar', role: 'CEO & Founder', initials: 'RK', color: '#004787', expertise: 'Digital Strategy' },
+    { name: 'Priya Sharma', role: 'Head of SEO', initials: 'PS', color: '#004787', expertise: 'SEO & Analytics' },
+    { name: 'Arjun Mehta', role: 'Web Dev Lead', initials: 'AM', color: '#004787', expertise: 'Full-Stack Dev' },
+    { name: 'Sneha Rao', role: 'Marketing Director', initials: 'SR', color: '#004787', expertise: 'Performance Mktg' },
+    { name: 'Kiran Reddy', role: 'Mobile Dev Lead', initials: 'KR', color: '#004787', expertise: 'React Native / Flutter' },
+    { name: 'Divya Nair', role: 'Content Strategist', initials: 'DN', color: '#004787', expertise: 'Content & Copywriting' },
   ];
 
   const services = [
@@ -145,7 +145,7 @@ export default function AboutPage() {
   ];
 
   const testimonials = [
-    { text: 'PixelMind Solutions doubled our organic traffic in just 4 months. Their SEO team is genuinely exceptional.', name: 'Anand Verma', company: 'TechStart Hyderabad' },
+    { text: 'Zentricstech Solutions doubled our organic traffic in just 4 months. Their SEO team is genuinely exceptional.', name: 'Anand Verma', company: 'TechStart Hyderabad' },
     { text: 'The website they built for us is fast, beautiful and ranks well. Professional team with excellent delivery.', name: 'Meera Krishnan', company: 'RetailPlus' },
     { text: 'Their performance marketing campaigns delivered a 3x ROAS. Best digital agency we have worked with.', name: 'Suresh Patil', company: 'EcomGrow' },
   ];
@@ -159,11 +159,11 @@ export default function AboutPage() {
     <>
 
       <Helmet>
-        <title>About Digital Marketing Agency | PixelMind Solutions</title>
+        <title>About Digital Marketing Agency | Zentricstech Solutions</title>
 
         <meta
           name="description"
-          content="PixelMind Solutions is a trusted digital marketing agency helping businesses grow with SEO, PPC, and social media strategies."
+          content="Zentricstech Solutions is a trusted digital marketing agency helping businesses grow with SEO, PPC, and social media strategies."
         />
 
         <meta
@@ -171,12 +171,12 @@ export default function AboutPage() {
           content="digital marketing company, SEO agency Hyderabad, marketing experts"
         />
 
-        <meta property="og:title" content="About PixelMind Solutions" />
+        <meta property="og:title" content="About Zentricstech Solutions" />
         <meta property="og:description" content="Meet our digital marketing experts and growth strategies." />
-        <meta property="og:url" content="https://www.pixelmindsolutions.in/about" />
-        <meta property="og:image" content="https://www.pixelmindsolutions.in/about.jpg" />
+        <meta property="og:url" content="https://www.zentricstech.com/about" />
+        <meta property="og:image" content="https://www.zentricstech.com/about.jpg" />
 
-        <link rel="canonical" href="https://www.pixelmindsolutions.in/about" />
+        <link rel="canonical" href="https://www.zentricstech.com/about" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -195,16 +195,16 @@ export default function AboutPage() {
                 <Badge>About Us</Badge>
                 <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-tight mb-6">
                   Your Growth,<br />
-                  <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent italic">Our Mission.</span>
+                  <span className="bg-[#004787] bg-clip-text text-transparent italic">Our Mission.</span>
                 </h1>
                 <p className="text-lg text-gray-600 leading-relaxed mb-10 max-w-lg">
                   We are a results-driven <strong>digital marketing agency</strong> and <strong>web development company in Hyderabad</strong> — helping businesses grow online with data-backed strategies and innovative technology.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-gradient-to-r from-teal-600 to-cyan-500 text-white px-8 py-3.5 rounded-xl font-semibold text-sm inline-flex items-center gap-2 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
+                  <button className="bg-[#004787] text-white px-8 py-3.5 rounded-xl font-semibold text-sm inline-flex items-center gap-2 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
                     Get Free Consultation <Icons.arrowRight />
                   </button>
-                  <button className="bg-transparent text-teal-600 px-8 py-3.5 rounded-xl font-semibold text-sm inline-flex items-center gap-2 border-2 border-teal-600 hover:bg-teal-50 hover:-translate-y-0.5 transition-all duration-200">
+                  <button className="bg-transparent text-[#004787] px-8 py-3.5 rounded-xl font-semibold text-sm inline-flex items-center gap-2 border-2 border-[#004787] hover:bg-teal-50 hover:-translate-y-0.5 transition-all duration-200">
                     View Our Work
                   </button>
                 </div>
@@ -226,7 +226,7 @@ export default function AboutPage() {
                   ))}
                   {/* Center card */}
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl p-7 text-center w-[220px] shadow-[0_24px_64px_rgba(79,70,229,0.15)]">
-                    <div className="text-5xl font-extrabold bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">5+</div>
+                    <div className="text-5xl font-extrabold bg-[#004787] bg-clip-text text-transparent">5+</div>
                     <div className="text-xs text-gray-500 font-medium mt-1">Years of Excellence</div>
                     <div className="flex justify-center gap-1 mt-3">
                       {[...Array(5)].map((_, i) => <span key={i} className="text-amber-400"><Icons.star /></span>)}
@@ -234,9 +234,9 @@ export default function AboutPage() {
                   </div>
                   {/* Floating stat chips */}
                   {[
-                    { label: '100+ Projects', top: '10%', left: '60%', bg: '#0D9488' },
-                    { label: '50+ Clients', top: '75%', left: '55%', bg: '#06B6D4' },
-                    { label: 'SEO Experts', top: '20%', left: '-5%', bg: '#0F766E' },
+                    { label: '100+ Projects', top: '10%', left: '60%', bg: '#004787' },
+                    { label: '50+ Clients', top: '75%', left: '55%', bg: '#004787' },
+                    { label: 'SEO Experts', top: '20%', left: '-5%', bg: '#004787' },
                   ].map((chip, i) => (
                     <motion.div key={i}
                       animate={{ y: [0, -8, 0] }}
@@ -260,9 +260,9 @@ export default function AboutPage() {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
               <div className="rounded-3xl bg-gradient-to-br from-teal-50 to-cyan-50 p-10 relative min-h-[360px] flex flex-col justify-center gap-4">
                 {[
-                  { label: 'Organic Traffic', pct: 87, color: '#0D9488' },
-                  { label: 'Conversion Rate', pct: 72, color: '#06B6D4' },
-                  { label: 'Client Retention', pct: 94, color: '#0F766E' },
+                  { label: 'Organic Traffic', pct: 87, color: '#004787' },
+                  { label: 'Conversion Rate', pct: 72, color: '#004787' },
+                  { label: 'Client Retention', pct: 94, color: '#004787' },
                 ].map((item, i) => (
                   <div key={i}>
                     <div className="flex justify-between mb-1.5 text-sm font-semibold text-gray-700">
@@ -281,7 +281,7 @@ export default function AboutPage() {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1}>
               <Badge>Who We Are</Badge>
               <h2 className="font-serif text-4xl md:text-5xl mb-6">
-                A Full-Service <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Digital Partner</span>
+                A Full-Service <span className="bg-[#004787] bg-clip-text text-transparent">Digital Partner</span>
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 We are a full-service <strong>digital marketing agency and web development company in Hyderabad</strong>, focused on helping businesses grow with data-driven strategies and innovative solutions.
@@ -303,11 +303,11 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-8">
               {[
                 {
-                  icon: Icons.target, label: 'Our Mission', color: '#0D9488', bg: '#F0FDFA',
+                  icon: Icons.target, label: 'Our Mission', color: '#004787', bg: '#F0FDFA',
                   text: 'To help businesses grow online by delivering high-performance digital marketing and technology solutions that drive real, measurable results.'
                 },
                 {
-                  icon: Icons.eye, label: 'Our Vision', color: '#0891B2', bg: '#ECFEFF',
+                  icon: Icons.eye, label: 'Our Vision', color: '#004787', bg: '#ECFEFF',
                   text: 'To become a leading digital marketing agency known for innovation, transparency, and measurable success — helping clients across every industry thrive.'
                 },
               ].map((card, i) => (
@@ -328,7 +328,7 @@ export default function AboutPage() {
         <section className="py-24 max-w-7xl mx-auto px-6 lg:px-12">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-16">
             <Badge>Why Choose Us</Badge>
-            <h2 className="font-serif text-4xl md:text-5xl mb-4">What Makes Us <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Different</span></h2>
+            <h2 className="font-serif text-4xl md:text-5xl mb-4">What Makes Us <span className="bg-[#004787] bg-clip-text text-transparent">Different</span></h2>
             <p className="text-gray-500 max-w-xl mx-auto">We don't just run campaigns — we build digital engines that keep delivering.</p>
           </motion.div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -336,7 +336,7 @@ export default function AboutPage() {
               <motion.div key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}
                 className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5">
                 <div className="flex items-center gap-3.5 mb-3.5">
-                  <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-[#004787] text-white flex items-center justify-center shrink-0">
                     <d.icon />
                   </div>
                   <h3 className="font-bold text-lg">{d.label}</h3>
@@ -346,11 +346,11 @@ export default function AboutPage() {
             ))}
             {/* Filler CTA card */}
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={5}
-              className="bg-gradient-to-r from-teal-600 to-cyan-500 rounded-2xl p-8 flex flex-col justify-between">
+              className="bg-[#004787] rounded-2xl p-8 flex flex-col justify-between">
               <p className="text-white/85 text-base leading-relaxed mb-6">
                 Ready to experience the PixelMind difference for your business?
               </p>
-              <button className="bg-white text-teal-600 border-none py-3 px-6 rounded-xl font-bold text-sm cursor-pointer flex items-center gap-2 w-fit hover:opacity-90 transition-all">
+              <button className="bg-white text-[#004787] border-none py-3 px-6 rounded-xl font-bold text-sm cursor-pointer flex items-center gap-2 w-fit hover:opacity-90 transition-all">
                 Start Today <Icons.arrowRight />
               </button>
             </motion.div>
@@ -361,15 +361,15 @@ export default function AboutPage() {
         <section className="bg-slate-900 py-24">
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-16">
-              <span className="inline-block py-1.5 px-5 rounded-full text-xs font-bold tracking-wider uppercase bg-teal-800/30 text-teal-300 mb-4">Our Expertise</span>
-              <h2 className="font-serif text-4xl md:text-5xl text-white mb-4">What We <span className="text-teal-300">Do Best</span></h2>
+              <span className="inline-block py-1.5 px-5 rounded-full text-xs font-bold tracking-wider uppercase bg-[#004787] text-white mb-4">Our Expertise</span>
+              <h2 className="font-serif text-4xl md:text-5xl text-white mb-4">What We <span className="text-[#004787]">Do Best</span></h2>
               <p className="text-slate-400 max-w-md mx-auto">End-to-end digital services that work together to grow your business online.</p>
             </motion.div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.map((s, i) => (
                 <motion.div key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}
                   className="bg-white/5 border border-white/10 rounded-2xl p-8 cursor-pointer hover:bg-white/10 transition-all duration-300 hover:-translate-y-1.5">
-                  <div className="w-12 h-12 rounded-xl bg-teal-700/30 text-teal-300 flex items-center justify-center mb-5">
+                  <div className="w-12 h-12 rounded-xl bg-[#004787] text-white flex items-center justify-center mb-5">
                     <s.icon />
                   </div>
                   <h3 className="font-bold text-slate-100 text-lg mb-2.5">{s.label}</h3>
@@ -378,9 +378,9 @@ export default function AboutPage() {
               ))}
               {/* CTA card */}
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={5}
-                className="bg-gradient-to-br from-teal-700/40 to-cyan-600/30 border border-teal-300/30 rounded-2xl p-8 flex flex-col justify-center items-center text-center">
+                className="bg-[#004787] border border-[#004787]/30 rounded-2xl p-8 flex flex-col justify-center items-center text-center">
                 <p className="text-slate-200 text-sm mb-5">Need a custom solution?</p>
-                <button className="bg-gradient-to-r from-teal-600 to-cyan-500 text-white border-none py-3 px-7 rounded-xl font-bold text-sm cursor-pointer flex items-center gap-2 hover:opacity-90 transition-all">
+                <button className="bg-white text-[#004787] border-none py-3 px-7 rounded-xl font-bold text-sm cursor-pointer flex items-center gap-2 hover:opacity-90 transition-all">
                   Explore All Services <Icons.arrowRight />
                 </button>
               </motion.div>
@@ -392,7 +392,7 @@ export default function AboutPage() {
         <section className="py-24 max-w-7xl mx-auto px-6 lg:px-12">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-16">
             <Badge>Leadership Team</Badge>
-            <h2 className="font-serif text-4xl md:text-5xl mb-4">Meet Our <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Team</span></h2>
+            <h2 className="font-serif text-4xl md:text-5xl mb-4">Meet Our <span className="bg-[#004787] bg-clip-text text-transparent">Team</span></h2>
             <p className="text-gray-500 max-w-lg mx-auto">Passionate specialists committed to delivering exceptional results for every client.</p>
           </motion.div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -413,7 +413,7 @@ export default function AboutPage() {
         </section>
 
         {/* ── 7. STATS ── */}
-        <section className="relative overflow-hidden bg-gradient-to-r from-teal-600 to-cyan-500 py-24">
+        <section className="relative overflow-hidden bg-[#004787] py-24">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.04\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]" />
           <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-16">
@@ -438,13 +438,13 @@ export default function AboutPage() {
         <section className="py-24 max-w-7xl mx-auto px-6 lg:px-12">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} className="text-center mb-16">
             <Badge>Client Love</Badge>
-            <h2 className="font-serif text-4xl md:text-5xl mb-4">What Our Clients <span className="bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">Say</span></h2>
+            <h2 className="font-serif text-4xl md:text-5xl mb-4">What Our Clients <span className="bg-[#004787] bg-clip-text text-transparent">Say</span></h2>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((t, i) => (
               <motion.div key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}
                 className="bg-white border border-gray-200 rounded-3xl p-8 relative hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5">
-                <div className="absolute top-6 right-6 text-teal-600"><Icons.quote /></div>
+                <div className="absolute top-6 right-6 text-[#004787]"><Icons.quote /></div>
                 <div className="flex gap-0.5 mb-4">
                   {[...Array(5)].map((_, j) => <span key={j} className="text-amber-400"><Icons.star /></span>)}
                 </div>
@@ -462,16 +462,16 @@ export default function AboutPage() {
         <section className="bg-slate-900 py-24">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-              <span className="inline-block py-1.5 px-5 rounded-full text-xs font-bold tracking-wider uppercase bg-teal-800/30 text-teal-300 mb-5">Ready to Grow?</span>
+              <span className="inline-block py-1.5 px-5 rounded-full text-xs font-bold tracking-wider uppercase bg-[#004787] text-[#004787] mb-5">Ready to Grow?</span>
               <h2 className="font-serif text-4xl md:text-6xl text-white mb-6">
                 Let's Grow Your<br />
-                <span className="text-teal-300">Business Together</span>
+                <span className="text-[#004787]">Business Together</span>
               </h2>
               <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-md mx-auto">
-                Partner with PixelMind Solutions to build strategies that drive traffic, qualified leads, and real revenue growth.
+                Partner with Zentricstech Solutions to build strategies that drive traffic, qualified leads, and real revenue growth.
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
-                <button className="bg-gradient-to-r from-teal-600 to-cyan-500 text-white px-9 py-4 rounded-xl font-semibold text-base inline-flex items-center gap-2 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
+                <button className="bg-[#004787] text-white px-9 py-4 rounded-xl font-semibold text-base inline-flex items-center gap-2 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
                   Get Free Consultation <Icons.arrowRight />
                 </button>
                 <button className="bg-white/10 text-white border border-white/20 px-9 py-4 rounded-xl font-semibold text-base cursor-pointer hover:bg-white/20 transition-all duration-200">

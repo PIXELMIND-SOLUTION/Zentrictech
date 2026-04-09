@@ -8,28 +8,28 @@ const processSteps = [
     title: '1.Research & Strategy',
     description:
       'We analyze your market, competitors & audience.',
-    color: 'from-[#06cabc] to-[#06a6c4]',
+    color: 'from-[#004787] to-[#004787]',
   },
   {
     icon: Target,
     title: '2.Execution',
     description:
       'We implement SEO, ads & development strategies.',
-    color: 'from-[#06cabc] to-[#0699c4]',
+    color: 'from-[#004787] to-[#004787]',
   },
   {
     icon: Play,
     title: '3.Optimization',
     description:
       'Continuous improvement for better performance.',
-    color: 'from-[#06cabc] to-[#06b4c4]',
+    color: 'from-[#004787] to-[#004787]',
   },
   {
     icon: TrendingUp,
     title: '4.Scaling',
     description:
       'We scale campaigns to maximize ROI.',
-    color: 'from-[#06cabc] to-[#06dac4]',
+    color: 'from-[#004787] to-[#004787]',
   },
 ];
 
@@ -68,7 +68,7 @@ const Process = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-gray-900 dark:text-white">Our Proven </span>
-            <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
+            <span className="bg-[#004787] bg-clip-text text-transparent">
               Growth Process
             </span>
           </h2>
@@ -82,7 +82,7 @@ const Process = () => {
         <div className="relative">
 
           {/* Desktop Connector Line */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-[2px] bg-gradient-to-r from-[#06cabc] via-[#0699c4] to-[#06dac4] opacity-30" />
+          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-[2px] bg-gradient-to-r from-[#004787] via-[#004787] to-[#004787] opacity-30" />
 
           {/* Steps */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 relative">
@@ -110,7 +110,7 @@ const Process = () => {
                 <div className="relative z-10 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl border border-gray-200 dark:border-gray-700 rounded-3xl p-8 shadow-lg group-hover:shadow-2xl transition-all duration-500 w-full">
 
                   {/* Step Badge */}
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-gradient-to-r from-[#06cabc] to-[#06a6c4] flex items-center justify-center text-white font-bold shadow-lg">
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-[#004787] flex items-center justify-center text-white font-bold shadow-lg">
                     {index + 1}
                   </div>
 

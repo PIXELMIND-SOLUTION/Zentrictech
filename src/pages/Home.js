@@ -60,11 +60,11 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Digital Marketing Agency in Hyderabad | PixelMind Solutions</title>
+        <title>Digital Marketing Agency in Hyderabad | Zentricstech Solutions</title>
 
         <meta
           name="description"
-          content="PixelMind Solutions is a results-driven digital marketing agency in Hyderabad offering SEO, PPC, social media marketing, and lead generation services."
+          content="Zentricstech Solutions is a results-driven digital marketing agency in Hyderabad offering SEO, PPC, social media marketing, and lead generation services."
         />
 
         <meta
@@ -72,16 +72,16 @@ const Home = () => {
           content="digital marketing agency Hyderabad, SEO services, PPC ads, social media marketing, lead generation company"
         />
 
-        <meta property="og:title" content="Digital Marketing Agency | PixelMind Solutions" />
+        <meta property="og:title" content="Digital Marketing Agency | Zentricstech Solutions" />
         <meta property="og:description" content="Grow your business with expert SEO, PPC, and social media marketing services." />
-        <meta property="og:url" content="https://www.pixelmindsolutions.in/" />
-        <meta property="og:image" content="https://www.pixelmindsolutions.in/preview.jpg" />
+        <meta property="og:url" content="https://www.zentricstech.com/" />
+        <meta property="og:image" content="https://www.zentricstech.com/preview.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Digital Marketing Agency | PixelMind Solutions" />
+        <meta name="twitter:title" content="Digital Marketing Agency | Zentricstech Solutions" />
         <meta name="twitter:description" content="Top digital marketing services to grow your business online." />
 
-        <link rel="canonical" href="https://www.pixelmindsolutions.in/" />
+        <link rel="canonical" href="https://www.zentricstech.com/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -100,7 +100,7 @@ const Home = () => {
                 {/* Dot */}
                 <span
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${isActive
-                    ? "bg-teal-600 scale-125 shadow-lg shadow-teal-500/50"
+                    ? "bg-[#004787] scale-125 shadow-lg shadow-[#004787]/50"
                     : "bg-gray-400 dark:bg-gray-600"
                     }`}
                 />
@@ -108,7 +108,7 @@ const Home = () => {
                 {/* Label */}
                 <span
                   className={`text-sm font-medium transition-all duration-300 ${isActive
-                    ? "opacity-100 translate-x-0 text-teal-600"
+                    ? "opacity-100 translate-x-0 text-[#004787]"
                     : "opacity-0 -translate-x-2 text-gray-500 group-hover:opacity-80"
                     }`}
                 >

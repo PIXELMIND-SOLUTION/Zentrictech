@@ -16,35 +16,35 @@ const services = [
     title: "SEO Services Company",
     description:
       "Rank higher on Google & get organic traffic that converts.",
-    color: "from-[#06cabc] to-[#06a6c4]",
+    color: "from-[#004787] to-[#004787]",
   },
   {
     icon: Share2,
     title: "Digital Marketing Services",
     description:
       "Complete marketing solutions including ads, content & strategy.",
-    color: "from-[#06cabc] to-[#0699c4]",
+    color: "from-[#004787] to-[#004787]",
   },
   {
     icon: Target,
     title: "Custom Web Development Services",
     description:
       "High-performance websites designed to convert visitors into customers.",
-    color: "from-[#06cabc] to-[#06b4c4]",
+    color: "from-[#004787] to-[#004787]",
   },
   {
     icon: PenTool,
     title: "Mobile App Development Company",
     description:
       "Scalable Android & iOS apps tailored to your business needs.",
-    color: "from-[#06cabc] to-[#06dac4]",
+    color: "from-[#004787] to-[#004787]",
   },
   {
     icon: Mail,
     title: "Performance Marketing",
     description:
       "ROI-focused Google Ads & Meta Ads campaigns.",
-    color: "from-[#06cabc] to-[#06e4c4]",
+    color: "from-[#004787] to-[#004787]",
   },
 ];
 
@@ -83,7 +83,7 @@ const Services = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-gray-900 dark:text-white">Our </span>
-            <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
+            <span className="bg-[#004787] bg-clip-text text-transparent">
               Growth-Focused Services
             </span>
           </h2>
@@ -132,7 +132,7 @@ const Services = () => {
                 {/* CTA */}
                 <a
                   href="#"
-                  className="inline-flex items-center text-sm font-semibold text-[#06cabc] dark:text-[#06cabc]/90 group/link"
+                  className="inline-flex items-center text-sm font-semibold text-[#004787] dark:text-[#004787]/90 group/link"
                 >
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4 transform group-hover/link:translate-x-1 transition-transform" />
@@ -150,7 +150,7 @@ const Services = () => {
           transition={{ duration: 0.8 }}
           className="text-center mt-20"
         >
-          <button className="px-10 py-4 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <button className="px-10 py-4 bg-[#004787] text-white font-semibold rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
             View All Services
           </button>
         </motion.div>

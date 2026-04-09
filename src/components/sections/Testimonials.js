@@ -30,7 +30,7 @@ const testimonials = [
       { value: '45%', label: 'ROI Increase', icon: TrendingUp },
       { value: '98%', label: 'Satisfaction', icon: CheckCircle }
     ],
-    color: 'from-[#06cabc] to-[#06a6c4]'
+    color: 'from-[#004787] to-[#004787]'
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ const testimonials = [
       { value: '240%', label: 'Conversions', icon: TrendingUp },
       { value: '$500K', label: 'Revenue', icon: TrendingUp }
     ],
-    color: 'from-[#06cabc] to-[#0699c4]'
+    color: 'from-[#004787] to-[#004787]'
   },
   {
     id: 3,
@@ -60,7 +60,7 @@ const testimonials = [
       { value: '1.2K', label: 'Backlinks', icon: TrendingUp },
       { value: '150K', label: 'Monthly Traffic', icon: TrendingUp }
     ],
-    color: 'from-[#06cabc] to-[#06b4c4]'
+    color: 'from-[#004787] to-[#004787]'
   },
   {
     id: 4,
@@ -75,7 +75,7 @@ const testimonials = [
       { value: '$2.15', label: 'CPL', icon: TrendingUp },
       { value: '87%', label: 'Engagement', icon: TrendingUp }
     ],
-    color: 'from-[#06cabc] to-[#06dac4]'
+    color: 'from-[#004787] to-[#004787]'
   },
 ];
 
@@ -106,15 +106,15 @@ const Testimonials = () => {
     <section id="testimonials" className="relative py-32 overflow-hidden bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#06cabc]/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#06a6c4]/5 rounded-full blur-3xl" />
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#004787]/5 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#004787]/5 rounded-full blur-3xl" />
       </div>
 
       {/* Floating Quotes */}
       {[...Array(8)].map((_, i) => (
         <motion.div
           key={i}
-          className="absolute text-[#06cabc]/10 dark:text-[#06cabc]/10"
+          className="absolute text-[#004787]/10 dark:text-[#004787]/10"
           initial={{ 
             x: Math.random() * 100 + 'vw',
             y: Math.random() * 100 + 'vh',
@@ -146,14 +146,14 @@ const Testimonials = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#06cabc]/10 to-[#06a6c4]/10 dark:from-[#06cabc]/20 dark:to-[#06a6c4]/20 text-[#06cabc] dark:text-[#06cabc]/90 mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#004787]/10 to-[#004787]/10 dark:from-[#004787]/20 dark:to-[#004787]/20 text-[#004787] dark:text-[#004787]/90 mb-6">
             <Sparkles size={16} />
             <span className="text-sm font-medium">Client Love</span>
           </div>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             <span className="block text-gray-900 dark:text-white">Real</span>
-            <span className="block bg-gradient-to-r from-[#06cabc] via-[#06a6c4] to-[#0699c4] bg-clip-text text-transparent">
+            <span className="block bg-[#004787] bg-clip-text text-transparent">
               Success Stories
             </span>
           </h2>
@@ -168,7 +168,7 @@ const Testimonials = () => {
           {/* Timeline Sidebar */}
           <div className="lg:w-1/3 relative">
             {/* Vertical Timeline Line */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#06cabc]/30 via-[#06a6c4]/30 to-transparent" />
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#004787]/30 via-[#004787]/30 to-transparent" />
             
             {/* Timeline Points */}
             <div className="relative space-y-12 pl-12">
@@ -189,8 +189,8 @@ const Testimonials = () => {
                   {/* Timeline Dot */}
                   <div className={`absolute -left-12 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full transition-all duration-300 ${
                     currentIndex === index 
-                      ? 'bg-gradient-to-r from-[#06cabc] to-[#06a6c4] scale-125 ring-4 ring-[#06cabc]/30'
-                      : 'bg-gray-300 dark:bg-gray-600 group-hover:bg-[#06cabc]'
+                      ? 'bg-[#004787] scale-125 ring-4 ring-[#004787]/30'
+                      : 'bg-gray-300 dark:bg-gray-600 group-hover:bg-[#004787]'
                   }`} />
 
                   {/* Timeline Card */}
@@ -259,7 +259,7 @@ const Testimonials = () => {
                   <div className="relative p-8 md:p-12">
                     {/* Quote Icon */}
                     <div className="mb-8">
-                      <Quote className="h-16 w-16 text-[#06cabc]/20 dark:text-[#06cabc]/30" />
+                      <Quote className="h-16 w-16 text-[#004787]/20 dark:text-[#004787]/30" />
                     </div>
 
                     {/* Testimonial Text */}
@@ -279,7 +279,7 @@ const Testimonials = () => {
                               className="w-full h-full object-cover"
                             />
                           </div>
-                          <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] rounded-full flex items-center justify-center shadow-lg">
+                          <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-[#004787] rounded-full flex items-center justify-center shadow-lg">
                             <CheckCircle className="h-5 w-5 text-white" />
                           </div>
                         </div>
@@ -313,7 +313,7 @@ const Testimonials = () => {
                             transition={{ delay: index * 0.1 }}
                             className="text-center p-4 bg-gradient-to-b from-gray-50 to-white dark:from-gray-700 dark:to-gray-800 rounded-xl shadow-lg"
                           >
-                            <result.icon className="h-6 w-6 text-[#06cabc] mx-auto mb-2" />
+                            <result.icon className="h-6 w-6 text-[#004787] mx-auto mb-2" />
                             <div className="text-xl font-bold text-gray-900 dark:text-white">
                               {result.value}
                             </div>
@@ -348,7 +348,7 @@ const Testimonials = () => {
                         onClick={() => setCurrentIndex(index)}
                         className={`w-2 h-2 rounded-full transition-all ${
                           currentIndex === index
-                            ? 'w-8 bg-gradient-to-r from-[#06cabc] to-[#06a6c4]'
+                            ? 'w-8 bg-[#004787]'
                             : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400'
                         }`}
                       />
@@ -361,7 +361,7 @@ const Testimonials = () => {
                     onClick={nextSlide}
                     onMouseEnter={() => setIsAutoPlaying(false)}
                     onMouseLeave={() => setIsAutoPlaying(true)}
-                    className="p-3 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] text-white rounded-xl shadow-lg hover:shadow-xl transition-all"
+                    className="p-3 bg-[#004787] text-white rounded-xl shadow-lg hover:shadow-xl transition-all"
                   >
                     <ChevronRight className="h-5 w-5" />
                   </motion.button>
@@ -380,10 +380,10 @@ const Testimonials = () => {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { icon: Medal, label: 'Award Winning', value: '15+ Awards', color: 'from-[#06cabc] to-[#06a6c4]' },
-              { icon: Users, label: 'Happy Clients', value: '250+', color: 'from-[#06cabc] to-[#0699c4]' },
-              { icon: Globe, label: 'Global Reach', value: '45+ Countries', color: 'from-[#06cabc] to-[#06b4c4]' },
-              { icon: Zap, label: 'Success Rate', value: '98%', color: 'from-[#06cabc] to-[#06dac4]' },
+              { icon: Medal, label: 'Award Winning', value: '15+ Awards', color: 'from-[#004787] to-[#004787]' },
+              { icon: Users, label: 'Happy Clients', value: '250+', color: 'from-[#004787] to-[#004787]' },
+              { icon: Globe, label: 'Global Reach', value: '45+ Countries', color: 'from-[#004787] to-[#004787]' },
+              { icon: Zap, label: 'Success Rate', value: '98%', color: 'from-[#004787] to-[#004787]' },
             ].map((metric, index) => (
               <motion.div
                 key={index}

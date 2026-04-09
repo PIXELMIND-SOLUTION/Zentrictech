@@ -42,7 +42,7 @@ const Results = () => {
             <span className="text-gray-900 dark:text-white">
               We Deliver{" "}
             </span>
-            <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
+            <span className="bg-[#004787] bg-clip-text text-transparent">
               Real Business Growth
             </span>
           </h2>
@@ -65,13 +65,13 @@ const Results = () => {
               className="relative group"
             >
               {/* Glow */}
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] opacity-0 group-hover:opacity-20 blur-xl rounded-2xl transition duration-500"></div>
+              <div className="absolute -inset-2 bg-[#004787] opacity-0 group-hover:opacity-20 blur-xl rounded-2xl transition duration-500"></div>
 
               {/* Card */}
               <div className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl border border-gray-200 dark:border-gray-700 rounded-2xl p-6 md:p-8 text-center shadow-md group-hover:shadow-xl transition-all duration-500">
 
                 {/* Icon */}
-                <div className="w-12 h-12 md:w-14 md:h-14 mx-auto mb-4 rounded-xl bg-gradient-to-r from-[#06cabc] to-[#06a6c4] flex items-center justify-center text-white group-hover:scale-110 transition">
+                <div className="w-12 h-12 md:w-14 md:h-14 mx-auto mb-4 rounded-xl bg-[#004787] flex items-center justify-center text-white group-hover:scale-110 transition">
                   <item.icon size={22} />
                 </div>
 

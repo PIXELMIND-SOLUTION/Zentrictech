@@ -37,7 +37,7 @@ const CaseStudy = () => {
             <span className="text-gray-900 dark:text-white">
               Success{" "}
             </span>
-            <span className="bg-gradient-to-r from-[#06cabc] to-[#06a6c4] bg-clip-text text-transparent">
+            <span className="bg-[#004787] bg-clip-text text-transparent">
               Story
             </span>
           </h2>
@@ -57,7 +57,7 @@ const CaseStudy = () => {
           className="relative"
         >
           {/* Glow */}
-          <div className="absolute -inset-2 bg-gradient-to-r from-[#06cabc] to-[#06a6c4] opacity-20 blur-2xl rounded-3xl"></div>
+          <div className="absolute -inset-2 bg-[#004787] opacity-20 blur-2xl rounded-3xl"></div>
 
           <div className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl border border-gray-200 dark:border-gray-700 rounded-3xl p-8 md:p-12 shadow-xl">
 
@@ -83,7 +83,7 @@ const CaseStudy = () => {
                   className="text-center group"
                 >
                   {/* Icon */}
-                  <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-gradient-to-r from-[#06cabc] to-[#06a6c4] flex items-center justify-center text-white shadow-md group-hover:scale-110 transition">
+                  <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-[#004787] flex items-center justify-center text-white shadow-md group-hover:scale-110 transition">
                     <item.icon size={24} />
                   </div>
 
