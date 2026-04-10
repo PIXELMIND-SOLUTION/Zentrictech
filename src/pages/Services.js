@@ -187,12 +187,12 @@ const ServicesPage = () => {
           content="SEO services, PPC advertising, Google Ads, social media marketing, digital marketing services"
         />
 
-        <meta property="og:title" content="Digital Marketing Services | Zentricstech Solutions" />
+        <meta property="og:title" content="Digital Marketing Services | Zyntricstech Solutions" />
         <meta property="og:description" content="Comprehensive SEO, PPC, and social media marketing services." />
-        <meta property="og:url" content="https://www.zentricstech.com/services" />
-        <meta property="og:image" content="https://www.zentricstech.com/services.jpg" />
+        <meta property="og:url" content="https://www.zyntricstech.com/services" />
+        <meta property="og:image" content="https://www.zyntricstech.com/services.jpg" />
 
-        <link rel="canonical" href="https://www.zentricstech.com/services" />
+        <link rel="canonical" href="https://www.zyntricstech.com/services" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 

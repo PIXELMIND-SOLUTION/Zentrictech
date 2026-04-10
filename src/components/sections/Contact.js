@@ -73,7 +73,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "info@zentricstech.com",
+      value: "info@zyntricstech.com",
       description: "We respond within 24 hours",
     },
     {

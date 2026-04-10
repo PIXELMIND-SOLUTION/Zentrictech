@@ -111,7 +111,7 @@ export default function ContactPage() {
   const contactCards = [
     { Icon: MapPinIcon, label: 'Our Office', value: 'Hitech City, Hyderabad, Telangana — 500081', sub: 'India', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'https://maps.google.com' },
     { Icon: PhoneIcon, label: 'Call Us', value: '+91 98765 43210', sub: 'Mon–Sat, 9am–7pm IST', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'tel:+919876543210' },
-    { Icon: MailIcon, label: 'Email Us', value: 'info@zentricstech.com', sub: 'Reply within 24 hrs', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'mailto:info@zentricstech.com' },
+    { Icon: MailIcon, label: 'Email Us', value: 'info@zyntricstech.com', sub: 'Reply within 24 hrs', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'mailto:info@zyntricstech.com' },
     { Icon: WhatsAppIcon, label: 'WhatsApp', value: '+91 98765 43210', sub: 'Chat instantly', iconBg: 'bg-[#004787]', iconColor: 'text-[#fff]', href: 'https://wa.me/919876543210' },
   ];
 
@@ -134,11 +134,11 @@ export default function ContactPage() {
     <>
 
       <Helmet>
-        <title>About Digital Marketing Agency | Zentricstech Solutions</title>
+        <title>About Digital Marketing Agency | Zyntricstech Solutions</title>
 
         <meta
           name="description"
-          content="Zentricstech Solutions is a trusted digital marketing agency helping businesses grow with SEO, PPC, and social media strategies."
+          content="Zyntricstech Solutions is a trusted digital marketing agency helping businesses grow with SEO, PPC, and social media strategies."
         />
 
         <meta
@@ -146,12 +146,12 @@ export default function ContactPage() {
           content="digital marketing company, SEO agency Hyderabad, marketing experts"
         />
 
-        <meta property="og:title" content="About Zentricstech Solutions" />
+        <meta property="og:title" content="About Zyntricstech Solutions" />
         <meta property="og:description" content="Meet our digital marketing experts and growth strategies." />
-        <meta property="og:url" content="https://www.zentricstech.com/about" />
-        <meta property="og:image" content="https://www.zentricstech.com/about.jpg" />
+        <meta property="og:url" content="https://www.zyntricstech.com/about" />
+        <meta property="og:image" content="https://www.zyntricstech.com/about.jpg" />
 
-        <link rel="canonical" href="https://www.zentricstech.com/about" />
+        <link rel="canonical" href="https://www.zyntricstech.com/about" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -359,11 +359,11 @@ export default function ContactPage() {
           </motion.div>
           <div className="relative overflow-hidden h-96 lg:h-[460px]">
             <iframe
-              title="Zentricstech Solutions Office"
+              title="Zyntricstech Solutions Office"
               width="100%" height="100%"
               className="border-0 block w-full h-full"
               loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.55686048698!2d78.39158967412615!3d17.480911500106153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f9ee6211d7041%3A0x57e8ab2675c2f578!2szentricstech%20PVT.LTD%20-%20Software%20Company%20in%20Hyderabad!5e0!3m2!1sen!2sin!4v1774515986832!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.55686048698!2d78.39158967412615!3d17.480911500106153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f9ee6211d7041%3A0x57e8ab2675c2f578!2szyntricstech%20PVT.LTD%20-%20Software%20Company%20in%20Hyderabad!5e0!3m2!1sen!2sin!4v1774515986832!5m2!1sen!2sin"
             />
             <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex items-center gap-3 bg-white rounded-full px-6 py-3 shadow-xl border border-teal-100 whitespace-nowrap">
               <span className="text-[#004787]"><MapPinIcon /></span>

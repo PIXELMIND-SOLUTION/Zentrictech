@@ -145,7 +145,7 @@ export default function AboutPage() {
   ];
 
   const testimonials = [
-    { text: 'Zentricstech Solutions doubled our organic traffic in just 4 months. Their SEO team is genuinely exceptional.', name: 'Anand Verma', company: 'TechStart Hyderabad' },
+    { text: 'Zyntricstech Solutions doubled our organic traffic in just 4 months. Their SEO team is genuinely exceptional.', name: 'Anand Verma', company: 'TechStart Hyderabad' },
     { text: 'The website they built for us is fast, beautiful and ranks well. Professional team with excellent delivery.', name: 'Meera Krishnan', company: 'RetailPlus' },
     { text: 'Their performance marketing campaigns delivered a 3x ROAS. Best digital agency we have worked with.', name: 'Suresh Patil', company: 'EcomGrow' },
   ];
@@ -159,11 +159,11 @@ export default function AboutPage() {
     <>
 
       <Helmet>
-        <title>About Digital Marketing Agency | Zentricstech Solutions</title>
+        <title>About Digital Marketing Agency | Zyntricstech Solutions</title>
 
         <meta
           name="description"
-          content="Zentricstech Solutions is a trusted digital marketing agency helping businesses grow with SEO, PPC, and social media strategies."
+          content="Zyntricstech Solutions is a trusted digital marketing agency helping businesses grow with SEO, PPC, and social media strategies."
         />
 
         <meta
@@ -171,12 +171,12 @@ export default function AboutPage() {
           content="digital marketing company, SEO agency Hyderabad, marketing experts"
         />
 
-        <meta property="og:title" content="About Zentricstech Solutions" />
+        <meta property="og:title" content="About Zyntricstech Solutions" />
         <meta property="og:description" content="Meet our digital marketing experts and growth strategies." />
-        <meta property="og:url" content="https://www.zentricstech.com/about" />
-        <meta property="og:image" content="https://www.zentricstech.com/about.jpg" />
+        <meta property="og:url" content="https://www.zyntricstech.com/about" />
+        <meta property="og:image" content="https://www.zyntricstech.com/about.jpg" />
 
-        <link rel="canonical" href="https://www.zentricstech.com/about" />
+        <link rel="canonical" href="https://www.zyntricstech.com/about" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -468,7 +468,7 @@ export default function AboutPage() {
                 <span className="text-[#004787]">Business Together</span>
               </h2>
               <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-md mx-auto">
-                Partner with Zentricstech Solutions to build strategies that drive traffic, qualified leads, and real revenue growth.
+                Partner with Zyntricstech Solutions to build strategies that drive traffic, qualified leads, and real revenue growth.
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
                 <button className="bg-[#004787] text-white px-9 py-4 rounded-xl font-semibold text-base inline-flex items-center gap-2 hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">

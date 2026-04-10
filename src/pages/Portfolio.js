@@ -196,7 +196,7 @@ const PortfolioPage = () => {
     <>
 
       <Helmet>
-        <title>Digital Marketing Case Studies | Zentricstech Solutions</title>
+        <title>Digital Marketing Case Studies | Zyntricstech Solutions</title>
 
         <meta
           name="description"
@@ -208,12 +208,12 @@ const PortfolioPage = () => {
           content="SEO case studies, digital marketing results, PPC success stories, marketing portfolio"
         />
 
-        <meta property="og:title" content="Marketing Case Studies | Zentricstech Solutions" />
+        <meta property="og:title" content="Marketing Case Studies | Zyntricstech Solutions" />
         <meta property="og:description" content="Real results from SEO, PPC, and marketing campaigns." />
-        <meta property="og:url" content="https://www.zentricstech.com/portfolio" />
-        <meta property="og:image" content="https://www.zentricstech.com/portfolio.jpg" />
+        <meta property="og:url" content="https://www.zyntricstech.com/portfolio" />
+        <meta property="og:image" content="https://www.zyntricstech.com/portfolio.jpg" />
 
-        <link rel="canonical" href="https://www.zentricstech.com/portfolio" />
+        <link rel="canonical" href="https://www.zyntricstech.com/portfolio" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 

@@ -75,14 +75,14 @@ const Footer = () => {
 
               <motion.img
                 src="/smalllightlogo.png"
-                alt="zentricstech Logo"
+                alt="zyntricstech Logo"
                 className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain"
                 whileHover={{ rotate: 180, scale: 1.1 }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
               />
 
               <p className="text-lg sm:text-xl md:text-2xl font-bold text-[#004787] tracking-wide">
-                Zentrictech
+                Zyntricstech
               </p>
 
             </div>
@@ -313,7 +313,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div className="text-gray-500 text-sm">
-              <p>&copy; {currentYear} zentricstech. All rights reserved.</p>
+              <p>&copy; {currentYear} zyntricstech. All rights reserved.</p>
             </div>
 
             {/* Back to Top */}

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.zentricstech.com/sitemap.xml
+Sitemap: https://www.zyntricstech.com/sitemap.xml

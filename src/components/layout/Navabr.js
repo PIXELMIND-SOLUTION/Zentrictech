@@ -42,7 +42,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-6 h-10 flex items-center justify-between text-sm">
               <div className="flex items-center gap-6">
                 <span className="flex items-center gap-2">
-                  <Mail size={14} /> hello@zentricstech.com
+                  <Mail size={14} /> hello@zyntricstech.com
                 </span>
                 <span className="flex items-center gap-2">
                   <Phone size={14} /> +91 98765 43210
@@ -78,7 +78,7 @@ const Navbar = () => {
               <Link to="/" className="relative z-10 flex items-center pl-2">
                 <img
                   src="/logo.png"
-                  alt="zentricstech Logo"
+                  alt="zyntricstech Logo"
                   className="h-10 sm:h-12 w-auto object-contain"
                 />
               </Link>
@@ -184,7 +184,7 @@ const Navbar = () => {
               <div className="px-6 py-5 border-t border-gray-200 dark:border-gray-800 space-y-3 text-sm">
                 <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Mail size={16} className="text-[#004787]" />
-                  hello@zentricstech.com
+                  hello@zyntricstech.com
                 </div>
                 <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Phone size={16} className="text-[#004787]" />
