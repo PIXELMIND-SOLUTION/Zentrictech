@@ -60,7 +60,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Digital Marketing Agency in Hyderabad | Zyntricstech Solutions</title>
+        <title>Zyntricstech Solutions | Digital Marketing Agency in Hyderabad</title>
 
         <meta
           name="description"
